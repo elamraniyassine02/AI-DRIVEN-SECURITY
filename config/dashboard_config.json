@@ -1,0 +1,68 @@
+{
+    "server": {
+      "host": "192.168.43.218",
+      "port": 8050
+    },
+    "data_sources": {
+      "anomalies": {
+        "path": "/home/kali/security-solution/results/anomalies.json",
+        "type": "file",
+        "refresh_interval": 300
+      },
+      "logs": {
+        "path": "/home/kali/security-solution/data/processed_logs",
+        "type": "directory",
+        "refresh_interval": 60  
+      },
+      "risk_scores": {
+        "path": "/home/kali/security-solution/results/risk_scores.json",
+        "type": "file",
+        "refresh_interval": 120
+      }
+    },
+    "views": {
+      "overview": {
+        "title": "Security Overview",
+        "type": "grid",
+        "rows": 2,
+        "columns": 3,
+        "panels": [
+          {
+            "title": "High Risk Assets",
+            "type": "table",
+            "data_source": "risk_scores",
+            "fields": ["asset", "score"],
+            "sort_by": "score"
+          },
+          {
+            "title": "Recent Anomalies",
+            "type": "table", 
+            "data_source": "anomalies",
+            "fields": ["timestamp", "asset", "anomaly_type", "score"],
+            "sort_by": "timestamp"
+          },
+          {
+            "title": "Risk Score Distribution",
+            "type": "histogram",
+            "data_source": "risk_scores", 
+            "x_field": "score",
+            "bins": 10
+          },
+          {
+            "title": "Anomalies by Asset",
+            "type": "bar",
+            "data_source": "anomalies",
+            "x_field": "asset",
+            "y_field": "score"
+          },
+          {
+            "title": "Risk Score Trend",
+            "type": "line",
+            "data_source": "risk_scores",
+            "x_field": "timestamp",
+            "y_field": "score"
+          }
+        ]
+      }
+    }
+  }
