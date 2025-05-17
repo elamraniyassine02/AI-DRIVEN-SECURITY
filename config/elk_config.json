@@ -1,0 +1,70 @@
+
+{
+  "elasticsearch": {
+    "hosts": ["localhost:9200"],
+    "indices": {
+      "anomalies": "security-anomalies",
+      "vulnerabilities": "security-vulnerabilities",
+      "compliance": "security-compliance",
+      "risk_scores": "security-risk-scores",
+      "logs": "security-logs"
+    }
+  },
+  "logstash": {
+    "host": "localhost",
+    "port": 5044
+  },
+  "kibana": {
+    "host": "localhost",
+    "port": 5601
+  },
+  "index_templates": {
+    "anomalies": {
+      "mappings": {
+        "properties": {
+          "@timestamp": { "type": "date" },
+          "score": { "type": "float" },
+          "asset": { "type": "keyword" },
+          "description": { "type": "text" }
+        }
+      }
+    },
+    "vulnerabilities": {
+      "mappings": {
+        "properties": {
+          "@timestamp": { "type": "date" },
+          "host": { "type": "keyword" },
+          "port": { "type": "integer" },
+          "service": { "type": "keyword" },
+          "severity": { "type": "keyword" },
+          "description": { "type": "text" }
+        }
+      }
+    },
+    "compliance": {
+      "mappings": {
+        "properties": {
+          "@timestamp": { "type": "date" },
+          "host": { "type": "keyword" },
+          "framework": { "type": "keyword" },
+          "check_name": { "type": "keyword" },
+          "status": { "type": "keyword" },
+          "output": { "type": "text" }
+        }
+      }
+    },
+    "risk_scores": {
+      "mappings": {
+        "properties": {
+          "@timestamp": { "type": "date" },
+          "asset": { "type": "keyword" },
+          "score": { "type": "float" },
+          "risk_level": { "type": "keyword" },
+          "anomaly_score": { "type": "float" },
+          "vulnerability_score": { "type": "float" },
+          "compliance_score": { "type": "float" }
+        }
+      }
+    }
+  }
+}

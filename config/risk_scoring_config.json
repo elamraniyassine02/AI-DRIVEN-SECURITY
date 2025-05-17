@@ -1,0 +1,20 @@
+{
+  "risk_weights": {
+    "vulnerability": 0.4,
+    "anomaly": 0.3,
+    "compliance": 0.3
+  },
+  "risk_thresholds": {
+    "high": 0.7,
+    "medium": 0.4
+  },
+  "data": {
+    "anomalies": "results/anomalies.json",
+    "vulnerabilities": "results/vulnerabilities.json",
+    "compliance_issues": "results/compliance_issues.json"
+  },
+  "asset_criticality": "config/asset_criticality.json",
+  "output": {
+    "path": "results/risk_scores.json"
+  }
+}

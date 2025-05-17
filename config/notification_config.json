@@ -1,0 +1,30 @@
+{
+  "server_host": "192.168.100.66",
+  "server_port": "5601",
+  "alert_thresholds": {
+    "anomalies": 3,
+    "vulnerabilities": "medium",
+    "compliance_rate": 0.7
+  },
+  "email": {
+    "enabled": false,
+    "smtp": {
+      "server": "smtp.example.com",
+      "port": 587,
+      "use_tls": true,
+      "username": "security-alerts@example.com",
+      "password": "your-password-here",
+      "sender": "security-alerts@example.com"
+    },
+    "recipients": [
+      "admin@example.com",
+      "security-team@example.com"
+    ]
+  },
+  "slack": {
+    "enabled": false,
+    "webhook_url": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
+    "username": "Security Alert Bot",
+    "icon_emoji": ":lock:"
+  }
+}
