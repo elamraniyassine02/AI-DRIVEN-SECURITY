@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 {
   "worker_id": "worker2",
@@ -54,5 +55,33 @@
       "vulnerabilities_index": "security-vulnerabilities",
       "compliance_index": "security-compliance"
     }
+=======
+{
+  "worker_id": "worker1",
+  "server": {
+    "host": "192.168.100.55",
+    "port": 5555
+  },
+  "log_collection": {
+    "sources": [
+      {
+        "path": "/var/log/syslog",
+        "type": "syslog"
+      },
+      {
+        "path": "/var/log/auth.log",
+        "type": "auth"
+      }
+    ],
+    "interval": 60
+  },
+  "network_monitoring": {
+    "interface": "eth0",
+    "interval": 30
+  },
+  "logstash": {
+    "host": "192.168.100.55",
+    "port": 5044 
+>>>>>>> 6f437e4c0711f5641cf446fd3904f7607f3a8d15
   }
 }

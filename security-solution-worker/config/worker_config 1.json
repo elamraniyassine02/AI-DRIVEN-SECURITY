@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 {
   "worker_id": "worker1",
@@ -30,5 +31,57 @@
   "logstash": {
     "host": "192.168.100.66",
     "port": 5044
+=======
+{
+  "worker_id": "worker2",
+  "server": {
+    "host": "192.168.100.55",
+    "port": 5555
+  },
+  "vulnerability_scanning": {
+    "targets": [
+      {
+        "host": "192.168.100.72",
+        "ports": "0-65535"
+      },
+      {
+        "host": "192.168.100.73",
+        "ports": "0-65535"  
+      }
+    ],
+    "interval": 3600
+  },
+  "compliance": {
+    "frameworks": {
+      "cis_ubuntu": [
+        {
+          "name": "Ensure SSH root login is disabled",
+          "command": "grep \"^PermitRootLogin\" /etc/ssh/sshd_config | grep -v \"#\" | awk '{print $2}'"
+        },
+        {
+          "name": "Ensure password authentication is disabled in SSH",
+          "command": "grep \"^PasswordAuthentication\" /etc/ssh/sshd_config | grep -v \"#\" | awk '{print $2}'"
+        }
+      ],
+      "nist_800_53": [
+        {
+          "name": "Ensure system is up to date",
+          "command": "apt list --upgradable"
+        },
+        {
+          "name": "Ensure auditd is installed",
+          "command": "dpkg -s auditd"  
+        }
+      ]
+    },
+    "interval": 86400
+  },
+  "elk": {
+    "elasticsearch": {
+      "hosts": ["192.168.100.55:9200"],
+      "vulnerabilities_index": "vulnerabilities",
+      "compliance_index": "compliance"
+    }
+>>>>>>> 6f437e4c0711f5641cf446fd3904f7607f3a8d15
   }
 }

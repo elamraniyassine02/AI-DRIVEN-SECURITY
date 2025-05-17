@@ -194,6 +194,10 @@ Copy Python scripts to the server's scripts directory:
 ```bash
 # Copy main server components
 sudo nano scripts/server_service.py
+<<<<<<< HEAD
+=======
+sudo nano scripts/dashboard_app.py
+>>>>>>> 6f437e4c0711f5641cf446fd3904f7607f3a8d15
 sudo nano scripts/risk_scoring.py
 sudo nano scripts/message_queue.py
 
@@ -206,6 +210,7 @@ sudo nano scripts/real-log-collector.py
 sudo nano scripts/threat_classification.py
 sudo nano scripts/compliance_checker.py
 
+<<<<<<< HEAD
 # Create backup and notification scripts
 sudo nano scripts/backup_config.sh
 sudo nano scripts/test_notifications.py
@@ -218,6 +223,14 @@ sudo nano scripts/integrations/threat_intel_integration.py
 # Set execute permissions
 sudo chmod +x scripts/*.py
 sudo chmod +x scripts/*.sh
+=======
+# Create integration directory and scripts
+mkdir -p scripts/integrations
+sudo nano scripts/integrations/ml_elk_integration.py
+
+# Set execute permissions
+sudo chmod +x scripts/*.py
+>>>>>>> 6f437e4c0711f5641cf446fd3904f7607f3a8d15
 sudo chmod +x scripts/integrations/*.py
 ```
 
@@ -425,6 +438,7 @@ sudo gvm-start
 
 # Install compliance checking tools
 sudo apt install lynis -y
+<<<<<<< HEAD
 # Save requirements
 pip freeze > requirements.txt
 ```
@@ -432,6 +446,12 @@ ting user admin for gvm
 [*] Please note the generated admin password
 [*] User created with password '49fe8f6b-e0c2-48ed-b396-b30b2def410c'.
 
+=======
+db43ab86-a9d9-46ae-b334-6dbcd5b020e6
+# Save requirements
+pip freeze > requirements.txt
+```
+>>>>>>> 6f437e4c0711f5641cf446fd3904f7607f3a8d15
 
 ### 4.3 Configure Worker Components
 
