@@ -1,0 +1,30 @@
+{
+  "ip": [
+    {
+      "indicator": "192.168.100.1",
+      "threat_level": "high",
+      "description": "Test malicious IP"
+    }
+  ],
+  "domain": [
+    {
+      "indicator": "malicious-domain.com",
+      "threat_level": "medium",
+      "description": "Test malicious domain"
+    }
+  ],
+  "url": [
+    {
+      "indicator": "http://malicious-url.com/phish",
+      "threat_level": "critical",
+      "description": "Test malicious URL"
+    }
+  ],
+  "hash": [
+    {
+      "indicator": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "threat_level": "low",
+      "description": "Test malicious file hash"
+    }
+  ]
+}

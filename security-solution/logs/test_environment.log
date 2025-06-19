@@ -1,0 +1,1084 @@
+2025-05-23 11:55:18,219 - __main__ - INFO - Starting environment tests
+2025-05-23 11:55:18,219 - __main__ - INFO - Host: ubuntu
+2025-05-23 11:55:18,219 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 11:55:18,219 - __main__ - ERROR - ❌ Failed to load configuration: [Errno 2] No such file or directory: '--config'
+2025-05-23 11:55:59,121 - __main__ - INFO - Starting environment tests
+2025-05-23 11:55:59,121 - __main__ - INFO - Host: ubuntu
+2025-05-23 11:55:59,121 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 11:55:59,121 - __main__ - ERROR - ❌ Failed to load configuration: [Errno 2] No such file or directory: '--config'
+2025-05-23 12:05:07,167 - __main__ - INFO - Starting environment tests
+2025-05-23 12:05:07,167 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:05:07,167 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:05:07,167 - __main__ - ERROR - ❌ Failed to load configuration: [Errno 2] No such file or directory: '--config'
+2025-05-23 12:05:47,083 - __main__ - INFO - Starting environment tests
+2025-05-23 12:05:47,083 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:05:47,083 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:05:47,084 - __main__ - INFO - Testing Python version
+2025-05-23 12:05:47,084 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:05:47,085 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:05:47,085 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:05:47,269 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:05:47,269 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:05:47,574 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:05:47,680 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:05:47,691 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:05:47,701 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:05:47,703 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:05:47,703 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:05:47,811 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:05:47,811 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:05:47,816 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:05:47,820 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:05:47,823 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:05:47,823 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:05:47,824 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:05:47,824 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:05:47,824 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:05:47,824 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:05:47,827 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:05:47,828 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:05:47,959 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:05:47,966 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:05:47,966 - __main__ - INFO - Testing directory structure
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:05:47,967 - __main__ - INFO - Testing configuration files
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:05:47,967 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:05:47,968 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:05:47,968 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:05:47,968 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:05:47,968 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:05:47,968 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:05:47,968 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:05:47,968 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:05:47,968 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:05:47,968 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:05:47,968 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:05:47,969 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 12:06:08,176 - __main__ - INFO - Starting environment tests
+2025-05-23 12:06:08,176 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:06:08,176 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:06:08,177 - __main__ - INFO - Testing Python version
+2025-05-23 12:06:08,177 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:06:08,178 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:06:08,178 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:06:08,358 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:06:08,358 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:06:08,658 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:06:08,763 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:06:08,772 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:06:08,782 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:06:08,782 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:06:08,782 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:06:08,812 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:06:08,812 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:06:08,816 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:06:08,819 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:06:08,822 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:06:08,822 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:06:08,822 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:06:08,822 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:06:08,822 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:06:08,822 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:06:08,825 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:06:08,826 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:06:08,846 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:06:08,853 - __main__ - INFO - Testing directory structure
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:06:08,853 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:06:08,854 - __main__ - INFO - Testing configuration files
+2025-05-23 12:06:08,854 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:06:08,854 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:06:08,854 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:06:08,854 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:06:08,854 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:06:08,854 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:06:08,854 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:06:08,854 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:06:08,854 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:06:08,854 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:06:08,854 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:06:08,854 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:06:08,854 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:06:08,854 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 12:06:10,886 - __main__ - INFO - Starting environment tests
+2025-05-23 12:06:10,886 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:06:10,886 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:06:10,888 - __main__ - INFO - Testing Python version
+2025-05-23 12:06:10,888 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:06:10,888 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:06:10,888 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:06:11,074 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:06:11,074 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:06:11,377 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:06:11,481 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:06:11,490 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:06:11,500 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:06:11,500 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:06:11,500 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:06:11,530 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:06:11,530 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:06:11,534 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:06:11,537 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:06:11,541 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:06:11,541 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:06:11,541 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:06:11,541 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:06:11,542 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:06:11,542 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:06:11,544 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:06:11,544 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:06:11,578 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:06:11,630 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:06:11,630 - __main__ - INFO - Testing directory structure
+2025-05-23 12:06:11,630 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:06:11,630 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:06:11,631 - __main__ - INFO - Testing configuration files
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:06:11,631 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:06:11,631 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:06:11,631 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:06:11,631 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:06:11,631 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:06:11,631 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:06:11,631 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:06:11,631 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:06:11,631 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:06:11,631 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 12:06:16,760 - __main__ - INFO - Starting environment tests
+2025-05-23 12:06:16,760 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:06:16,760 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:06:16,761 - __main__ - INFO - Testing Python version
+2025-05-23 12:06:16,761 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:06:16,761 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:06:16,761 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:06:16,941 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:06:16,941 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:06:17,259 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:06:17,370 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:06:17,380 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:06:17,389 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:06:17,390 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:06:17,390 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:06:17,425 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:06:17,425 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:06:17,429 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:06:17,432 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:06:17,436 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:06:17,436 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:06:17,436 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:06:17,436 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:06:17,436 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:06:17,436 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:06:17,438 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:06:17,439 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:06:17,589 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:06:17,594 - __main__ - INFO - Testing directory structure
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:06:17,594 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:06:17,595 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:06:17,595 - __main__ - INFO - Testing configuration files
+2025-05-23 12:06:17,595 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:06:17,595 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:06:17,595 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:06:17,595 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:06:17,595 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:06:17,595 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:06:17,595 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:06:17,595 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:06:17,595 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:06:17,595 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:06:17,595 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:06:17,595 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:06:17,595 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:06:17,595 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 12:06:20,825 - __main__ - INFO - Starting environment tests
+2025-05-23 12:06:20,825 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:06:20,825 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:06:20,827 - __main__ - INFO - Testing Python version
+2025-05-23 12:06:20,827 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:06:20,827 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:06:20,827 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:06:21,025 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:06:21,025 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:06:21,363 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:06:21,474 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:06:21,483 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:06:21,494 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:06:21,495 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:06:21,495 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:06:21,527 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:06:21,527 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:06:21,531 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:06:21,534 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:06:21,538 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:06:21,538 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:06:21,538 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:06:21,539 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:06:21,539 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:06:21,539 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:06:21,541 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:06:21,541 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:06:21,556 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:06:21,560 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:06:21,560 - __main__ - INFO - Testing directory structure
+2025-05-23 12:06:21,560 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:06:21,560 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:06:21,560 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:06:21,560 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:06:21,560 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:06:21,560 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:06:21,561 - __main__ - INFO - Testing configuration files
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:06:21,561 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:06:21,561 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:06:21,561 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:06:21,561 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:06:21,561 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:06:21,561 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:06:21,561 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:06:21,562 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:06:21,562 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:06:21,562 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 12:06:28,074 - __main__ - INFO - Starting environment tests
+2025-05-23 12:06:28,074 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:06:28,074 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:06:28,075 - __main__ - INFO - Testing Python version
+2025-05-23 12:06:28,075 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:06:28,075 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:06:28,075 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:06:28,256 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:06:28,256 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:06:28,552 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:06:28,653 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:06:28,663 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:06:28,674 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:06:28,675 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:06:28,675 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:06:28,703 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:06:28,704 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:06:28,707 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:06:28,711 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:06:28,715 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:06:28,715 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:06:28,716 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:06:28,716 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:06:28,716 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:06:28,716 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:06:28,718 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:06:28,718 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:06:28,750 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:06:28,841 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:06:28,841 - __main__ - INFO - Testing directory structure
+2025-05-23 12:06:28,841 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:06:28,841 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:06:28,842 - __main__ - INFO - Testing configuration files
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:06:28,842 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:06:28,842 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:06:28,842 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:06:28,842 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:06:28,842 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:06:28,842 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:06:28,842 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:06:28,842 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:06:28,842 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:06:28,843 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 12:06:34,420 - __main__ - INFO - Starting environment tests
+2025-05-23 12:06:34,420 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:06:34,420 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:06:34,422 - __main__ - INFO - Testing Python version
+2025-05-23 12:06:34,422 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:06:34,422 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:06:34,422 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:06:34,632 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:06:34,632 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:06:35,012 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:06:35,121 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:06:35,131 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:06:35,140 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:06:35,140 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:06:35,140 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:06:35,170 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:06:35,171 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:06:35,174 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:06:35,177 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:06:35,179 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:06:35,179 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:06:35,180 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:06:35,180 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:06:35,180 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:06:35,180 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:06:35,182 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:06:35,182 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:06:35,415 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:06:35,455 - __main__ - INFO - Testing directory structure
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:06:35,455 - __main__ - INFO - Testing configuration files
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:06:35,455 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:06:35,456 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:06:35,456 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:06:35,456 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:06:35,456 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:06:35,456 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:06:35,456 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:06:35,456 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:06:35,456 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:06:35,456 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 12:07:48,066 - __main__ - INFO - Starting environment tests
+2025-05-23 12:07:48,066 - __main__ - INFO - Host: ubuntu
+2025-05-23 12:07:48,066 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 12:07:48,068 - __main__ - INFO - Testing Python version
+2025-05-23 12:07:48,068 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 12:07:48,068 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 12:07:48,068 - __main__ - INFO - Testing required Python libraries
+2025-05-23 12:07:48,251 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 12:07:48,251 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 12:07:48,554 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 12:07:48,657 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 12:07:48,667 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 12:07:48,677 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 12:07:48,677 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 12:07:48,677 - __main__ - INFO - ✅ requests is installed
+2025-05-23 12:07:48,706 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 12:07:48,706 - __main__ - INFO - Testing ELK stack services
+2025-05-23 12:07:48,709 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 12:07:48,712 - __main__ - INFO - ✅ logstash is running
+2025-05-23 12:07:48,715 - __main__ - INFO - ✅ kibana is running
+2025-05-23 12:07:48,715 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 12:07:48,716 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 12:07:48,716 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 12:07:48,716 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 12:07:48,716 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 12:07:48,718 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 12:07:48,718 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 12:07:48,808 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 12:07:48,818 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 12:07:48,819 - __main__ - INFO - Testing directory structure
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ config directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ data directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ models directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ results directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 12:07:48,819 - __main__ - INFO - Testing configuration files
+2025-05-23 12:07:48,819 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 12:07:48,820 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 12:07:48,820 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 12:07:48,820 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 12:07:48,820 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 12:07:48,820 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 12:07:48,820 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 12:07:48,820 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 12:07:48,820 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 12:07:48,820 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 12:07:48,820 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 12:07:48,820 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 12:07:48,820 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 12:07:48,820 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 14:06:52,796 - __main__ - INFO - Starting environment tests
+2025-05-23 14:06:52,796 - __main__ - INFO - Host: ubuntu
+2025-05-23 14:06:52,796 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 14:06:52,797 - __main__ - INFO - Testing Python version
+2025-05-23 14:06:52,797 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 14:06:52,797 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 14:06:52,797 - __main__ - INFO - Testing required Python libraries
+2025-05-23 14:06:53,038 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 14:06:53,038 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 14:06:53,331 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 14:06:53,436 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 14:06:53,460 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 14:06:53,487 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 14:06:53,487 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 14:06:53,488 - __main__ - INFO - ✅ requests is installed
+2025-05-23 14:06:53,524 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 14:06:53,524 - __main__ - INFO - Testing ELK stack services
+2025-05-23 14:06:53,528 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 14:06:53,531 - __main__ - INFO - ✅ logstash is running
+2025-05-23 14:06:53,534 - __main__ - INFO - ✅ kibana is running
+2025-05-23 14:06:53,534 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 14:06:53,534 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 14:06:53,534 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 14:06:53,534 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 14:06:53,535 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 14:06:53,539 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 14:06:53,539 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 14:06:53,560 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 14:06:53,569 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 14:06:53,569 - __main__ - INFO - Testing directory structure
+2025-05-23 14:06:53,569 - __main__ - INFO - ✅ config directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ data directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ models directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ results directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 14:06:53,570 - __main__ - INFO - Testing configuration files
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 14:06:53,570 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 14:06:53,570 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 14:06:53,570 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 14:06:53,570 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 14:06:53,570 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 14:06:53,570 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 14:06:53,570 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 14:06:53,571 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 14:06:53,571 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 14:06:53,571 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 14:07:24,396 - __main__ - INFO - Starting environment tests
+2025-05-23 14:07:24,396 - __main__ - INFO - Host: ubuntu
+2025-05-23 14:07:24,396 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 14:07:24,396 - __main__ - ERROR - ❌ Failed to load configuration: [Errno 2] No such file or directory: 'config/elk_config.jsonclear'
+2025-05-23 14:08:30,123 - __main__ - INFO - Starting environment tests
+2025-05-23 14:08:30,124 - __main__ - INFO - Host: ubuntu
+2025-05-23 14:08:30,124 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 14:08:30,125 - __main__ - INFO - Testing Python version
+2025-05-23 14:08:30,125 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 14:08:30,125 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 14:08:30,125 - __main__ - INFO - Testing required Python libraries
+2025-05-23 14:08:30,334 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 14:08:30,334 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 14:08:30,733 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 14:08:30,850 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 14:08:30,861 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 14:08:30,872 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 14:08:30,872 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 14:08:30,873 - __main__ - INFO - ✅ requests is installed
+2025-05-23 14:08:30,906 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 14:08:30,906 - __main__ - INFO - Testing ELK stack services
+2025-05-23 14:08:30,910 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 14:08:30,915 - __main__ - INFO - ✅ logstash is running
+2025-05-23 14:08:30,919 - __main__ - INFO - ✅ kibana is running
+2025-05-23 14:08:30,919 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 14:08:30,920 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 14:08:30,920 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 14:08:30,920 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 14:08:30,920 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 14:08:30,922 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 14:08:30,923 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 14:08:30,977 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.21
+2025-05-23 14:08:31,012 - __main__ - INFO - ✅ Worker 2 port 22 is open
+2025-05-23 14:08:31,013 - __main__ - INFO - Testing directory structure
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ config directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ data directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ models directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ results directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 14:08:31,013 - __main__ - INFO - Testing configuration files
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 14:08:31,013 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 14:08:31,014 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 14:08:31,014 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 14:08:31,014 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 14:08:31,014 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 14:08:31,014 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 14:08:31,014 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 14:08:31,014 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 14:08:31,014 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 14:08:31,014 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 14:08:31,014 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 17:27:37,624 - __main__ - INFO - Starting environment tests
+2025-05-23 17:27:37,625 - __main__ - INFO - Host: ubuntu
+2025-05-23 17:27:37,625 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 17:27:37,625 - __main__ - ERROR - ❌ Failed to load configuration: [Errno 2] No such file or directory: '--config'
+2025-05-23 17:27:48,728 - __main__ - INFO - Starting environment tests
+2025-05-23 17:27:48,729 - __main__ - INFO - Host: ubuntu
+2025-05-23 17:27:48,729 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 17:27:48,731 - __main__ - INFO - Testing Python version
+2025-05-23 17:27:48,731 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 17:27:48,731 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 17:27:48,731 - __main__ - INFO - Testing required Python libraries
+2025-05-23 17:27:49,020 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 17:27:49,020 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 17:27:49,466 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 17:27:49,609 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 17:27:49,651 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 17:27:49,668 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 17:27:49,671 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 17:27:49,671 - __main__ - INFO - ✅ requests is installed
+2025-05-23 17:27:49,807 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 17:27:49,807 - __main__ - INFO - Testing ELK stack services
+2025-05-23 17:27:49,818 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 17:27:49,828 - __main__ - INFO - ✅ logstash is running
+2025-05-23 17:27:49,832 - __main__ - INFO - ✅ kibana is running
+2025-05-23 17:27:49,832 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 17:27:49,832 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 17:27:49,833 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 17:27:49,833 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 17:27:49,834 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 17:27:49,846 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 17:27:49,846 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 17:27:51,849 - __main__ - ERROR - ❌ Worker 2 does not respond to ping at 192.168.43.21
+2025-05-23 17:27:52,923 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-05-23 17:27:52,924 - __main__ - INFO - Testing directory structure
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ config directory exists
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ data directory exists
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ models directory exists
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ results directory exists
+2025-05-23 17:27:52,924 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 17:27:52,925 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 17:27:52,925 - __main__ - INFO - Testing configuration files
+2025-05-23 17:27:52,925 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 17:27:52,925 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 17:27:52,925 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 17:27:52,925 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 17:27:52,925 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 17:27:52,925 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 17:27:52,925 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 17:27:52,925 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 17:27:52,925 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 17:27:52,925 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 17:27:52,925 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 17:27:52,926 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 17:27:52,926 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 17:27:52,926 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-05-23 20:03:50,295 - __main__ - INFO - Starting environment tests
+2025-05-23 20:03:50,296 - __main__ - INFO - Host: ubuntu
+2025-05-23 20:03:50,296 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-05-23 20:03:50,298 - __main__ - INFO - Testing Python version
+2025-05-23 20:03:50,298 - __main__ - INFO - Current Python version: 3.10
+2025-05-23 20:03:50,298 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-05-23 20:03:50,298 - __main__ - INFO - Testing required Python libraries
+2025-05-23 20:03:50,483 - __main__ - INFO - ✅ pandas is installed
+2025-05-23 20:03:50,484 - __main__ - INFO - ✅ numpy is installed
+2025-05-23 20:03:50,859 - __main__ - INFO - ✅ scikit-learn is installed
+2025-05-23 20:03:50,968 - __main__ - INFO - ✅ elasticsearch is installed
+2025-05-23 20:03:50,997 - __main__ - INFO - ✅ pyzmq is installed
+2025-05-23 20:03:51,010 - __main__ - INFO - ✅ grpcio is installed
+2025-05-23 20:03:51,012 - __main__ - INFO - ✅ protobuf is installed
+2025-05-23 20:03:51,012 - __main__ - INFO - ✅ requests is installed
+2025-05-23 20:03:51,115 - __main__ - INFO - ✅ paramiko is installed
+2025-05-23 20:03:51,115 - __main__ - INFO - Testing ELK stack services
+2025-05-23 20:03:51,131 - __main__ - INFO - ✅ elasticsearch is running
+2025-05-23 20:03:51,135 - __main__ - INFO - ✅ logstash is running
+2025-05-23 20:03:51,138 - __main__ - INFO - ✅ kibana is running
+2025-05-23 20:03:51,138 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-05-23 20:03:51,138 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-05-23 20:03:51,139 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-05-23 20:03:51,139 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-05-23 20:03:51,139 - __main__ - INFO - Testing connectivity to worker nodes
+2025-05-23 20:03:51,147 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-05-23 20:03:51,147 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-05-23 20:03:53,151 - __main__ - ERROR - ❌ Worker 2 does not respond to ping at 192.168.43.21
+2025-05-23 20:03:54,263 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-05-23 20:03:54,263 - __main__ - INFO - Testing directory structure
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ config directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ data directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ logs directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ models directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ results directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ scripts directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-05-23 20:03:54,263 - __main__ - INFO - Testing configuration files
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ config/server_config.json exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-05-23 20:03:54,263 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-05-23 20:03:54,263 - __main__ - INFO - 
+=== Test Summary ===
+2025-05-23 20:03:54,263 - __main__ - INFO - Python Version: ✅ Pass
+2025-05-23 20:03:54,263 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-05-23 20:03:54,263 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-05-23 20:03:54,263 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-05-23 20:03:54,263 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-05-23 20:03:54,263 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-05-23 20:03:54,263 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-05-23 20:03:54,264 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-06-01 10:08:18,089 - __main__ - INFO - Starting environment tests
+2025-06-01 10:08:18,090 - __main__ - INFO - Host: ubuntu
+2025-06-01 10:08:18,091 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-06-01 10:08:18,092 - __main__ - INFO - Testing Python version
+2025-06-01 10:08:18,092 - __main__ - INFO - Current Python version: 3.10
+2025-06-01 10:08:18,092 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-06-01 10:08:18,092 - __main__ - INFO - Testing required Python libraries
+2025-06-01 10:08:18,300 - __main__ - INFO - ✅ pandas is installed
+2025-06-01 10:08:18,300 - __main__ - INFO - ✅ numpy is installed
+2025-06-01 10:08:18,646 - __main__ - INFO - ✅ scikit-learn is installed
+2025-06-01 10:08:18,758 - __main__ - INFO - ✅ elasticsearch is installed
+2025-06-01 10:08:18,767 - __main__ - INFO - ✅ pyzmq is installed
+2025-06-01 10:08:18,778 - __main__ - INFO - ✅ grpcio is installed
+2025-06-01 10:08:18,781 - __main__ - INFO - ✅ protobuf is installed
+2025-06-01 10:08:18,781 - __main__ - INFO - ✅ requests is installed
+2025-06-01 10:08:18,884 - __main__ - INFO - ✅ paramiko is installed
+2025-06-01 10:08:18,884 - __main__ - INFO - Testing ELK stack services
+2025-06-01 10:08:18,890 - __main__ - INFO - ✅ elasticsearch is running
+2025-06-01 10:08:18,893 - __main__ - INFO - ✅ logstash is running
+2025-06-01 10:08:18,896 - __main__ - INFO - ✅ kibana is running
+2025-06-01 10:08:18,897 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-06-01 10:08:18,897 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-06-01 10:08:18,898 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-06-01 10:08:18,898 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-06-01 10:08:18,898 - __main__ - INFO - Testing connectivity to worker nodes
+2025-06-01 10:08:18,904 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-06-01 10:08:18,904 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-06-01 10:08:20,907 - __main__ - ERROR - ❌ Worker 2 does not respond to ping at 192.168.43.21
+2025-06-01 10:08:21,964 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 10:08:21,964 - __main__ - INFO - Testing directory structure
+2025-06-01 10:08:21,965 - __main__ - INFO - ✅ config directory exists
+2025-06-01 10:08:21,965 - __main__ - INFO - ✅ data directory exists
+2025-06-01 10:08:21,972 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-06-01 10:08:21,972 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-06-01 10:08:21,972 - __main__ - INFO - ✅ logs directory exists
+2025-06-01 10:08:21,973 - __main__ - INFO - ✅ models directory exists
+2025-06-01 10:08:21,973 - __main__ - INFO - ✅ results directory exists
+2025-06-01 10:08:21,973 - __main__ - INFO - ✅ scripts directory exists
+2025-06-01 10:08:21,973 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-06-01 10:08:21,973 - __main__ - INFO - Testing configuration files
+2025-06-01 10:08:21,973 - __main__ - INFO - ✅ config/server_config.json exists
+2025-06-01 10:08:21,973 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-06-01 10:08:21,974 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-06-01 10:08:21,974 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-06-01 10:08:21,974 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-06-01 10:08:21,974 - __main__ - INFO - 
+=== Test Summary ===
+2025-06-01 10:08:21,974 - __main__ - INFO - Python Version: ✅ Pass
+2025-06-01 10:08:21,974 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-06-01 10:08:21,974 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-06-01 10:08:21,974 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-06-01 10:08:21,974 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-06-01 10:08:21,974 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-06-01 10:08:21,974 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-06-01 10:08:21,974 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-06-01 10:43:53,486 - __main__ - INFO - Starting environment tests
+2025-06-01 10:43:53,488 - __main__ - INFO - Host: ubuntu
+2025-06-01 10:43:53,488 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-06-01 10:43:53,490 - __main__ - INFO - Testing Python version
+2025-06-01 10:43:53,490 - __main__ - INFO - Current Python version: 3.10
+2025-06-01 10:43:53,490 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-06-01 10:43:53,490 - __main__ - INFO - Testing required Python libraries
+2025-06-01 10:43:53,730 - __main__ - INFO - ✅ pandas is installed
+2025-06-01 10:43:53,730 - __main__ - INFO - ✅ numpy is installed
+2025-06-01 10:43:54,093 - __main__ - INFO - ✅ scikit-learn is installed
+2025-06-01 10:43:54,217 - __main__ - INFO - ✅ elasticsearch is installed
+2025-06-01 10:43:54,227 - __main__ - INFO - ✅ pyzmq is installed
+2025-06-01 10:43:54,240 - __main__ - INFO - ✅ grpcio is installed
+2025-06-01 10:43:54,242 - __main__ - INFO - ✅ protobuf is installed
+2025-06-01 10:43:54,242 - __main__ - INFO - ✅ requests is installed
+2025-06-01 10:43:54,346 - __main__ - INFO - ✅ paramiko is installed
+2025-06-01 10:43:54,346 - __main__ - INFO - Testing ELK stack services
+2025-06-01 10:43:54,356 - __main__ - INFO - ✅ elasticsearch is running
+2025-06-01 10:43:54,361 - __main__ - INFO - ✅ logstash is running
+2025-06-01 10:43:54,366 - __main__ - INFO - ✅ kibana is running
+2025-06-01 10:43:54,366 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-06-01 10:43:54,367 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-06-01 10:43:54,367 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-06-01 10:43:54,367 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-06-01 10:43:54,367 - __main__ - INFO - Testing connectivity to worker nodes
+2025-06-01 10:43:54,373 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-06-01 10:43:54,374 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-06-01 10:43:56,377 - __main__ - ERROR - ❌ Worker 2 does not respond to ping at 192.168.43.21
+2025-06-01 10:43:57,436 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 10:43:57,436 - __main__ - INFO - Testing directory structure
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ config directory exists
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ data directory exists
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ logs directory exists
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ models directory exists
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ results directory exists
+2025-06-01 10:43:57,436 - __main__ - INFO - ✅ scripts directory exists
+2025-06-01 10:43:57,437 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-06-01 10:43:57,437 - __main__ - INFO - Testing configuration files
+2025-06-01 10:43:57,437 - __main__ - INFO - ✅ config/server_config.json exists
+2025-06-01 10:43:57,437 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-06-01 10:43:57,437 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-06-01 10:43:57,437 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-06-01 10:43:57,437 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-06-01 10:43:57,437 - __main__ - INFO - 
+=== Test Summary ===
+2025-06-01 10:43:57,437 - __main__ - INFO - Python Version: ✅ Pass
+2025-06-01 10:43:57,437 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-06-01 10:43:57,437 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-06-01 10:43:57,437 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-06-01 10:43:57,437 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-06-01 10:43:57,437 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-06-01 10:43:57,437 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-06-01 10:43:57,437 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-06-01 10:44:50,741 - __main__ - INFO - Starting environment tests
+2025-06-01 10:44:50,741 - __main__ - INFO - Host: ubuntu
+2025-06-01 10:44:50,741 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-06-01 10:44:50,743 - __main__ - INFO - Testing Python version
+2025-06-01 10:44:50,743 - __main__ - INFO - Current Python version: 3.10
+2025-06-01 10:44:50,743 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-06-01 10:44:50,743 - __main__ - INFO - Testing required Python libraries
+2025-06-01 10:44:50,943 - __main__ - INFO - ✅ pandas is installed
+2025-06-01 10:44:50,943 - __main__ - INFO - ✅ numpy is installed
+2025-06-01 10:44:51,278 - __main__ - INFO - ✅ scikit-learn is installed
+2025-06-01 10:44:51,397 - __main__ - INFO - ✅ elasticsearch is installed
+2025-06-01 10:44:51,407 - __main__ - INFO - ✅ pyzmq is installed
+2025-06-01 10:44:51,419 - __main__ - INFO - ✅ grpcio is installed
+2025-06-01 10:44:51,419 - __main__ - INFO - ✅ protobuf is installed
+2025-06-01 10:44:51,419 - __main__ - INFO - ✅ requests is installed
+2025-06-01 10:44:51,451 - __main__ - INFO - ✅ paramiko is installed
+2025-06-01 10:44:51,451 - __main__ - INFO - Testing ELK stack services
+2025-06-01 10:44:51,455 - __main__ - INFO - ✅ elasticsearch is running
+2025-06-01 10:44:51,458 - __main__ - INFO - ✅ logstash is running
+2025-06-01 10:44:51,462 - __main__ - INFO - ✅ kibana is running
+2025-06-01 10:44:51,462 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-06-01 10:44:51,462 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-06-01 10:44:51,462 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-06-01 10:44:51,463 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-06-01 10:44:51,463 - __main__ - INFO - Testing connectivity to worker nodes
+2025-06-01 10:44:51,465 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-06-01 10:44:51,465 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-06-01 10:44:53,468 - __main__ - ERROR - ❌ Worker 2 does not respond to ping at 192.168.43.21
+2025-06-01 10:44:54,523 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 10:44:54,523 - __main__ - INFO - Testing directory structure
+2025-06-01 10:44:54,523 - __main__ - INFO - ✅ config directory exists
+2025-06-01 10:44:54,523 - __main__ - INFO - ✅ data directory exists
+2025-06-01 10:44:54,523 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-06-01 10:44:54,523 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-06-01 10:44:54,523 - __main__ - INFO - ✅ logs directory exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ models directory exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ results directory exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ scripts directory exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-06-01 10:44:54,524 - __main__ - INFO - Testing configuration files
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ config/server_config.json exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-06-01 10:44:54,524 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-06-01 10:44:54,524 - __main__ - INFO - 
+=== Test Summary ===
+2025-06-01 10:44:54,524 - __main__ - INFO - Python Version: ✅ Pass
+2025-06-01 10:44:54,524 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-06-01 10:44:54,524 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-06-01 10:44:54,524 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-06-01 10:44:54,524 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-06-01 10:44:54,524 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-06-01 10:44:54,524 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-06-01 10:44:54,524 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-06-01 11:03:05,521 - __main__ - INFO - Starting environment tests
+2025-06-01 11:03:05,533 - __main__ - INFO - Host: ubuntu
+2025-06-01 11:03:05,533 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-06-01 11:03:05,535 - __main__ - INFO - Testing Python version
+2025-06-01 11:03:05,535 - __main__ - INFO - Current Python version: 3.10
+2025-06-01 11:03:05,535 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-06-01 11:03:05,535 - __main__ - INFO - Testing required Python libraries
+2025-06-01 11:03:05,895 - __main__ - INFO - ✅ pandas is installed
+2025-06-01 11:03:05,896 - __main__ - INFO - ✅ numpy is installed
+2025-06-01 11:03:06,471 - __main__ - INFO - ✅ scikit-learn is installed
+2025-06-01 11:03:06,577 - __main__ - INFO - ✅ elasticsearch is installed
+2025-06-01 11:03:06,590 - __main__ - INFO - ✅ pyzmq is installed
+2025-06-01 11:03:06,603 - __main__ - INFO - ✅ grpcio is installed
+2025-06-01 11:03:06,604 - __main__ - INFO - ✅ protobuf is installed
+2025-06-01 11:03:06,604 - __main__ - INFO - ✅ requests is installed
+2025-06-01 11:03:06,674 - __main__ - INFO - ✅ paramiko is installed
+2025-06-01 11:03:06,674 - __main__ - INFO - Testing ELK stack services
+2025-06-01 11:03:06,683 - __main__ - INFO - ✅ elasticsearch is running
+2025-06-01 11:03:06,686 - __main__ - INFO - ✅ logstash is running
+2025-06-01 11:03:06,689 - __main__ - INFO - ✅ kibana is running
+2025-06-01 11:03:06,690 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-06-01 11:03:06,691 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-06-01 11:03:06,691 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-06-01 11:03:06,691 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-06-01 11:03:06,692 - __main__ - INFO - Testing connectivity to worker nodes
+2025-06-01 11:03:06,694 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-06-01 11:03:06,694 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-06-01 11:03:08,697 - __main__ - ERROR - ❌ Worker 2 does not respond to ping at 192.168.43.21
+2025-06-01 11:03:09,756 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 11:03:09,756 - __main__ - INFO - Testing directory structure
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ config directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ data directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ logs directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ models directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ results directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ scripts directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-06-01 11:03:09,756 - __main__ - INFO - Testing configuration files
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ config/server_config.json exists
+2025-06-01 11:03:09,756 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-06-01 11:03:09,757 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-06-01 11:03:09,757 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-06-01 11:03:09,757 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-06-01 11:03:09,757 - __main__ - INFO - 
+=== Test Summary ===
+2025-06-01 11:03:09,757 - __main__ - INFO - Python Version: ✅ Pass
+2025-06-01 11:03:09,757 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-06-01 11:03:09,757 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-06-01 11:03:09,757 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-06-01 11:03:09,757 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-06-01 11:03:09,757 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-06-01 11:03:09,757 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-06-01 11:03:09,757 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-06-01 11:10:39,237 - __main__ - INFO - Starting environment tests
+2025-06-01 11:10:39,239 - __main__ - INFO - Host: ubuntu
+2025-06-01 11:10:39,239 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-06-01 11:10:39,240 - __main__ - INFO - Testing Python version
+2025-06-01 11:10:39,240 - __main__ - INFO - Current Python version: 3.10
+2025-06-01 11:10:39,240 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-06-01 11:10:39,240 - __main__ - INFO - Testing required Python libraries
+2025-06-01 11:10:39,559 - __main__ - INFO - ✅ pandas is installed
+2025-06-01 11:10:39,559 - __main__ - INFO - ✅ numpy is installed
+2025-06-01 11:10:40,016 - __main__ - INFO - ✅ scikit-learn is installed
+2025-06-01 11:10:40,129 - __main__ - INFO - ✅ elasticsearch is installed
+2025-06-01 11:10:40,140 - __main__ - INFO - ✅ pyzmq is installed
+2025-06-01 11:10:40,152 - __main__ - INFO - ✅ grpcio is installed
+2025-06-01 11:10:40,153 - __main__ - INFO - ✅ protobuf is installed
+2025-06-01 11:10:40,153 - __main__ - INFO - ✅ requests is installed
+2025-06-01 11:10:40,198 - __main__ - INFO - ✅ paramiko is installed
+2025-06-01 11:10:40,198 - __main__ - INFO - Testing ELK stack services
+2025-06-01 11:10:40,203 - __main__ - INFO - ✅ elasticsearch is running
+2025-06-01 11:10:40,206 - __main__ - INFO - ✅ logstash is running
+2025-06-01 11:10:40,210 - __main__ - INFO - ✅ kibana is running
+2025-06-01 11:10:40,210 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-06-01 11:10:40,210 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-06-01 11:10:40,210 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-06-01 11:10:40,211 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-06-01 11:10:40,211 - __main__ - INFO - Testing connectivity to worker nodes
+2025-06-01 11:10:40,214 - __main__ - ERROR - ❌ Worker 1 does not respond to ping at 192.168.43.187  
+2025-06-01 11:10:40,215 - __main__ - ERROR - ❌ Error checking Worker 1 port connectivity: [Errno -2] Name or service not known
+2025-06-01 11:10:40,228 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.146
+2025-06-01 11:10:40,235 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 11:10:40,235 - __main__ - INFO - Testing directory structure
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ config directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ data directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ logs directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ models directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ results directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ scripts directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-06-01 11:10:40,235 - __main__ - INFO - Testing configuration files
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ config/server_config.json exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-06-01 11:10:40,235 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-06-01 11:10:40,235 - __main__ - INFO - 
+=== Test Summary ===
+2025-06-01 11:10:40,235 - __main__ - INFO - Python Version: ✅ Pass
+2025-06-01 11:10:40,235 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-06-01 11:10:40,236 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-06-01 11:10:40,236 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-06-01 11:10:40,236 - __main__ - INFO - Worker Connectivity: ❌ Fail
+2025-06-01 11:10:40,236 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-06-01 11:10:40,236 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-06-01 11:10:40,236 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-06-01 11:11:10,901 - __main__ - INFO - Starting environment tests
+2025-06-01 11:11:10,901 - __main__ - INFO - Host: ubuntu
+2025-06-01 11:11:10,901 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-06-01 11:11:10,903 - __main__ - INFO - Testing Python version
+2025-06-01 11:11:10,903 - __main__ - INFO - Current Python version: 3.10
+2025-06-01 11:11:10,903 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-06-01 11:11:10,903 - __main__ - INFO - Testing required Python libraries
+2025-06-01 11:11:11,101 - __main__ - INFO - ✅ pandas is installed
+2025-06-01 11:11:11,101 - __main__ - INFO - ✅ numpy is installed
+2025-06-01 11:11:11,423 - __main__ - INFO - ✅ scikit-learn is installed
+2025-06-01 11:11:11,537 - __main__ - INFO - ✅ elasticsearch is installed
+2025-06-01 11:11:11,546 - __main__ - INFO - ✅ pyzmq is installed
+2025-06-01 11:11:11,557 - __main__ - INFO - ✅ grpcio is installed
+2025-06-01 11:11:11,558 - __main__ - INFO - ✅ protobuf is installed
+2025-06-01 11:11:11,558 - __main__ - INFO - ✅ requests is installed
+2025-06-01 11:11:11,610 - __main__ - INFO - ✅ paramiko is installed
+2025-06-01 11:11:11,611 - __main__ - INFO - Testing ELK stack services
+2025-06-01 11:11:11,615 - __main__ - INFO - ✅ elasticsearch is running
+2025-06-01 11:11:11,618 - __main__ - INFO - ✅ logstash is running
+2025-06-01 11:11:11,621 - __main__ - INFO - ✅ kibana is running
+2025-06-01 11:11:11,621 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-06-01 11:11:11,622 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-06-01 11:11:11,622 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-06-01 11:11:11,622 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-06-01 11:11:11,623 - __main__ - INFO - Testing connectivity to worker nodes
+2025-06-01 11:11:11,636 - __main__ - INFO - ✅ Worker 1 responds to ping at 192.168.43.187
+2025-06-01 11:11:11,724 - __main__ - WARNING - ⚠️ Worker 1 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 11:11:11,735 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.146
+2025-06-01 11:11:11,784 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 11:11:11,784 - __main__ - INFO - Testing directory structure
+2025-06-01 11:11:11,784 - __main__ - INFO - ✅ config directory exists
+2025-06-01 11:11:11,784 - __main__ - INFO - ✅ data directory exists
+2025-06-01 11:11:11,784 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-06-01 11:11:11,784 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-06-01 11:11:11,784 - __main__ - INFO - ✅ logs directory exists
+2025-06-01 11:11:11,784 - __main__ - INFO - ✅ models directory exists
+2025-06-01 11:11:11,784 - __main__ - INFO - ✅ results directory exists
+2025-06-01 11:11:11,785 - __main__ - INFO - ✅ scripts directory exists
+2025-06-01 11:11:11,785 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-06-01 11:11:11,785 - __main__ - INFO - Testing configuration files
+2025-06-01 11:11:11,785 - __main__ - INFO - ✅ config/server_config.json exists
+2025-06-01 11:11:11,785 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-06-01 11:11:11,785 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-06-01 11:11:11,785 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-06-01 11:11:11,785 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-06-01 11:11:11,785 - __main__ - INFO - 
+=== Test Summary ===
+2025-06-01 11:11:11,785 - __main__ - INFO - Python Version: ✅ Pass
+2025-06-01 11:11:11,785 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-06-01 11:11:11,785 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-06-01 11:11:11,785 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-06-01 11:11:11,785 - __main__ - INFO - Worker Connectivity: ✅ Pass
+2025-06-01 11:11:11,785 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-06-01 11:11:11,785 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-06-01 11:11:11,786 - __main__ - INFO - 
+✅ All tests passed successfully!
+2025-06-01 11:45:13,887 - __main__ - INFO - Starting environment tests
+2025-06-01 11:45:13,899 - __main__ - INFO - Host: ubuntu
+2025-06-01 11:45:13,899 - __main__ - INFO - OS: Linux 6.8.0-59-generic
+2025-06-01 11:45:13,901 - __main__ - INFO - Testing Python version
+2025-06-01 11:45:13,901 - __main__ - INFO - Current Python version: 3.10
+2025-06-01 11:45:13,901 - __main__ - INFO - ✅ Python 3.10 meets the minimum requirement
+2025-06-01 11:45:13,901 - __main__ - INFO - Testing required Python libraries
+2025-06-01 11:45:14,096 - __main__ - INFO - ✅ pandas is installed
+2025-06-01 11:45:14,096 - __main__ - INFO - ✅ numpy is installed
+2025-06-01 11:45:14,414 - __main__ - INFO - ✅ scikit-learn is installed
+2025-06-01 11:45:14,526 - __main__ - INFO - ✅ elasticsearch is installed
+2025-06-01 11:45:14,535 - __main__ - INFO - ✅ pyzmq is installed
+2025-06-01 11:45:14,545 - __main__ - INFO - ✅ grpcio is installed
+2025-06-01 11:45:14,558 - __main__ - INFO - ✅ protobuf is installed
+2025-06-01 11:45:14,558 - __main__ - INFO - ✅ requests is installed
+2025-06-01 11:45:14,655 - __main__ - INFO - ✅ paramiko is installed
+2025-06-01 11:45:14,655 - __main__ - INFO - Testing ELK stack services
+2025-06-01 11:45:14,664 - __main__ - INFO - ✅ elasticsearch is running
+2025-06-01 11:45:14,668 - __main__ - INFO - ✅ logstash is running
+2025-06-01 11:45:14,671 - __main__ - INFO - ✅ kibana is running
+2025-06-01 11:45:14,671 - __main__ - INFO - Testing connectivity to ELK stack components
+2025-06-01 11:45:14,672 - __main__ - INFO - ✅ Elasticsearch is reachable at localhost:9200
+2025-06-01 11:45:14,672 - __main__ - INFO - ✅ Kibana is reachable at localhost:5601
+2025-06-01 11:45:14,672 - __main__ - INFO - ✅ Logstash is reachable at localhost:5044
+2025-06-01 11:45:14,672 - __main__ - INFO - Testing connectivity to worker nodes
+2025-06-01 11:45:14,682 - __main__ - INFO - ✅ Worker 1 responds to ping at 192.168.43.187
+2025-06-01 11:45:14,686 - __main__ - WARNING - ⚠️ Worker 1 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 11:45:14,779 - __main__ - INFO - ✅ Worker 2 responds to ping at 192.168.43.146
+2025-06-01 11:45:14,784 - __main__ - WARNING - ⚠️ Worker 2 port 5555 is not open (this may be expected if service is not running yet)
+2025-06-01 11:45:14,784 - __main__ - INFO - Testing directory structure
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ config directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ data directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ data/raw_logs directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ data/processed_logs directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ logs directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ models directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ results directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ scripts directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ scripts/integrations directory exists
+2025-06-01 11:45:14,785 - __main__ - INFO - Testing configuration files
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ config/server_config.json exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ config/log_sources.json exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ config/elk_config.json exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ config/risk_scoring_config.json exists
+2025-06-01 11:45:14,785 - __main__ - INFO - ✅ config/asset_criticality.json exists
+2025-06-01 11:45:14,785 - __main__ - INFO - 
+=== Test Summary ===
+2025-06-01 11:45:14,785 - __main__ - INFO - Python Version: ✅ Pass
+2025-06-01 11:45:14,785 - __main__ - INFO - Required Libraries: ✅ Pass
+2025-06-01 11:45:14,786 - __main__ - INFO - ELK Stack Services: ✅ Pass
+2025-06-01 11:45:14,786 - __main__ - INFO - ELK Connectivity: ✅ Pass
+2025-06-01 11:45:14,786 - __main__ - INFO - Worker Connectivity: ✅ Pass
+2025-06-01 11:45:14,786 - __main__ - INFO - Directory Structure: ✅ Pass
+2025-06-01 11:45:14,786 - __main__ - INFO - Configuration Files: ✅ Pass
+2025-06-01 11:45:14,786 - __main__ - INFO - 
+✅ All tests passed successfully!

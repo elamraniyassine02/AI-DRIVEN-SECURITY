@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-06-01T10:44:59.391117",
+  "pattern_matches": {
+    "ssh_login_failure": 0,
+    "sudo_command": 1594
+  },
+  "num_clusters": 10,
+  "cluster_keys": [
+    "cluster_0",
+    "cluster_1",
+    "cluster_2",
+    "cluster_3",
+    "cluster_4",
+    "cluster_5",
+    "cluster_6",
+    "cluster_7",
+    "cluster_8",
+    "cluster_9"
+  ],
+  "freq_anomalies": [],
+  "auth_logs_count": 0
+}

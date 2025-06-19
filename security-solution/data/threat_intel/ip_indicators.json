@@ -1,0 +1,7 @@
+[
+  {
+    "indicator": "192.168.100.1",
+    "threat_level": "high",
+    "description": "Test malicious IP"
+  }
+]

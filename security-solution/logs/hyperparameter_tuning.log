@@ -1,0 +1,174 @@
+2025-05-23 11:38:10,868 - __main__ - INFO - Loading data from metricbeat-* for the last 7d
+2025-05-23 11:38:11,028 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.096s]
+2025-05-23 11:38:11,478 - __main__ - INFO - Loaded 8469 documents from Elasticsearch
+2025-05-23 11:38:11,495 - __main__ - INFO - Created DataFrame with 1500 rows and 5 columns
+2025-05-23 11:38:11,535 - __main__ - INFO - Manual grid search for Isolation Forest (unsupervised)
+2025-05-23 11:38:11,622 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.06568
+2025-05-23 11:38:11,710 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04471
+2025-05-23 11:38:11,799 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.06568
+2025-05-23 11:38:11,886 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04471
+2025-05-23 11:38:11,984 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.06277
+2025-05-23 11:38:12,082 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04196
+2025-05-23 11:38:12,182 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.06277
+2025-05-23 11:38:12,281 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04196
+2025-05-23 11:38:12,451 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.06558
+2025-05-23 11:38:12,618 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04510
+2025-05-23 11:38:12,789 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.06558
+2025-05-23 11:38:12,960 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04510
+2025-05-23 11:38:13,156 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.06234
+2025-05-23 11:38:13,348 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04169
+2025-05-23 11:38:13,544 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.06234
+2025-05-23 11:38:13,733 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04169
+2025-05-23 11:38:13,734 - __main__ - INFO - Best params (by std of decision function): {'n_estimators': 100, 'max_samples': 'auto', 'contamination': 0.01, 'max_features': 1.0}
+2025-05-23 11:38:13,734 - __main__ - INFO - Manual grid search for Local Outlier Factor (unsupervised)
+2025-05-23 11:38:13,738 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=20, metric=euclidean, STD(score)=7986445.55713
+2025-05-23 11:38:13,741 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=30, metric=euclidean, STD(score)=8174137.98589
+2025-05-23 11:38:13,745 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=20, metric=euclidean, STD(score)=8701595.69174
+2025-05-23 11:38:13,749 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=30, metric=euclidean, STD(score)=9366641.88214
+2025-05-23 11:38:13,750 - __main__ - INFO - Best params (by std of negative_outlier_factor): {'n_neighbors': 10, 'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean'}
+2025-05-23 11:38:13,751 - __main__ - INFO - Best parameters saved to models/hyperparameters.json
+2025-05-23 17:24:46,786 - __main__ - INFO - Loading data from metricbeat-* for the last 7d
+2025-05-23 17:24:46,956 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.110s]
+2025-05-23 17:24:47,514 - __main__ - INFO - Loaded 10000 documents from Elasticsearch
+2025-05-23 17:24:47,536 - __main__ - INFO - Created DataFrame with 1725 rows and 5 columns
+2025-05-23 17:24:47,586 - __main__ - INFO - Manual grid search for Isolation Forest (unsupervised)
+2025-05-23 17:24:47,678 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.07464
+2025-05-23 17:24:47,767 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04780
+2025-05-23 17:24:47,857 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.07464
+2025-05-23 17:24:47,947 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04780
+2025-05-23 17:24:48,049 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.06825
+2025-05-23 17:24:48,150 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04249
+2025-05-23 17:24:48,252 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.06825
+2025-05-23 17:24:48,353 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04249
+2025-05-23 17:24:48,529 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.07675
+2025-05-23 17:24:48,703 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04995
+2025-05-23 17:24:48,879 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.07675
+2025-05-23 17:24:49,053 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04995
+2025-05-23 17:24:49,255 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.06922
+2025-05-23 17:24:49,454 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04410
+2025-05-23 17:24:49,656 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.06922
+2025-05-23 17:24:49,855 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04410
+2025-05-23 17:24:49,855 - __main__ - INFO - Best params (by std of decision function): {'n_estimators': 200, 'max_samples': 'auto', 'contamination': 0.01, 'max_features': 1.0}
+2025-05-23 17:24:49,855 - __main__ - INFO - Manual grid search for Local Outlier Factor (unsupervised)
+2025-05-23 17:24:49,860 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=20, metric=euclidean, STD(score)=6069726.29063
+2025-05-23 17:24:49,864 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=30, metric=euclidean, STD(score)=6069726.29063
+2025-05-23 17:24:49,868 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=20, metric=euclidean, STD(score)=6295027.23129
+2025-05-23 17:24:49,872 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=30, metric=euclidean, STD(score)=6295027.23129
+2025-05-23 17:24:49,872 - __main__ - INFO - Best params (by std of negative_outlier_factor): {'n_neighbors': 10, 'algorithm': 'auto', 'leaf_size': 20, 'metric': 'euclidean'}
+2025-05-23 17:24:49,873 - __main__ - INFO - Best parameters saved to models/hyperparameters.json
+2025-05-23 20:03:20,843 - __main__ - INFO - Loading data from metricbeat-* for the last 7d
+2025-05-23 20:03:21,026 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.121s]
+2025-05-23 20:03:21,652 - __main__ - INFO - Loaded 10000 documents from Elasticsearch
+2025-05-23 20:03:21,672 - __main__ - INFO - Created DataFrame with 1804 rows and 5 columns
+2025-05-23 20:03:21,722 - __main__ - INFO - Manual grid search for Isolation Forest (unsupervised)
+2025-05-23 20:03:21,811 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.06725
+2025-05-23 20:03:21,902 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04433
+2025-05-23 20:03:21,993 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.06725
+2025-05-23 20:03:22,083 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04433
+2025-05-23 20:03:22,186 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.05976
+2025-05-23 20:03:22,286 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04040
+2025-05-23 20:03:22,387 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.05976
+2025-05-23 20:03:22,488 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04040
+2025-05-23 20:03:22,660 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.06689
+2025-05-23 20:03:22,835 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04410
+2025-05-23 20:03:23,008 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.06689
+2025-05-23 20:03:23,180 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04410
+2025-05-23 20:03:23,380 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.05978
+2025-05-23 20:03:23,576 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04068
+2025-05-23 20:03:23,774 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.05978
+2025-05-23 20:03:23,972 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04068
+2025-05-23 20:03:23,972 - __main__ - INFO - Best params (by std of decision function): {'n_estimators': 100, 'max_samples': 'auto', 'contamination': 0.01, 'max_features': 1.0}
+2025-05-23 20:03:23,972 - __main__ - INFO - Manual grid search for Local Outlier Factor (unsupervised)
+2025-05-23 20:03:23,977 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=20, metric=euclidean, STD(score)=7893908.52086
+2025-05-23 20:03:23,981 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=30, metric=euclidean, STD(score)=8644172.48189
+2025-05-23 20:03:23,985 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=20, metric=euclidean, STD(score)=7928605.28160
+2025-05-23 20:03:23,991 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=30, metric=euclidean, STD(score)=8221510.11484
+2025-05-23 20:03:23,992 - __main__ - INFO - Best params (by std of negative_outlier_factor): {'n_neighbors': 5, 'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean'}
+2025-05-23 20:03:23,992 - __main__ - INFO - Best parameters saved to models/hyperparameters.json
+2025-06-01 10:07:32,172 - __main__ - INFO - Loading data from metricbeat-* for the last 7d
+2025-06-01 10:07:32,274 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.040s]
+2025-06-01 10:07:32,354 - __main__ - INFO - Loaded 986 documents from Elasticsearch
+2025-06-01 10:07:32,359 - __main__ - INFO - Created DataFrame with 171 rows and 5 columns
+2025-06-01 10:07:32,364 - __main__ - INFO - Manual grid search for Isolation Forest (unsupervised)
+2025-06-01 10:07:32,451 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.05748
+2025-06-01 10:07:32,536 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.03998
+2025-06-01 10:07:32,617 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.05748
+2025-06-01 10:07:32,701 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.03998
+2025-06-01 10:07:32,782 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.05644
+2025-06-01 10:07:32,864 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.03959
+2025-06-01 10:07:32,945 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.05644
+2025-06-01 10:07:33,027 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.03959
+2025-06-01 10:07:33,188 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.05927
+2025-06-01 10:07:33,350 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04002
+2025-06-01 10:07:33,515 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.05927
+2025-06-01 10:07:33,679 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04002
+2025-06-01 10:07:33,842 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.05759
+2025-06-01 10:07:34,002 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.03941
+2025-06-01 10:07:34,160 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.05759
+2025-06-01 10:07:34,321 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.03941
+2025-06-01 10:07:34,321 - __main__ - INFO - Best params (by std of decision function): {'n_estimators': 200, 'max_samples': 'auto', 'contamination': 0.01, 'max_features': 1.0}
+2025-06-01 10:07:34,322 - __main__ - INFO - Manual grid search for Local Outlier Factor (unsupervised)
+2025-06-01 10:07:34,323 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=20, metric=euclidean, STD(score)=0.44760
+2025-06-01 10:07:34,325 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=30, metric=euclidean, STD(score)=0.44847
+2025-06-01 10:07:34,326 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=20, metric=euclidean, STD(score)=1.51111
+2025-06-01 10:07:34,328 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=30, metric=euclidean, STD(score)=1.51110
+2025-06-01 10:07:34,328 - __main__ - INFO - Best params (by std of negative_outlier_factor): {'n_neighbors': 10, 'algorithm': 'auto', 'leaf_size': 20, 'metric': 'euclidean'}
+2025-06-01 10:07:34,329 - __main__ - INFO - Best parameters saved to models/hyperparameters.json
+2025-06-01 10:38:13,393 - __main__ - INFO - Loading data from metricbeat-* for the last 7d
+2025-06-01 10:38:14,150 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.680s]
+2025-06-01 10:38:14,421 - __main__ - INFO - Loaded 4369 documents from Elasticsearch
+2025-06-01 10:38:14,433 - __main__ - INFO - Created DataFrame with 741 rows and 5 columns
+2025-06-01 10:38:14,456 - __main__ - INFO - Manual grid search for Isolation Forest (unsupervised)
+2025-06-01 10:38:14,555 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.07136
+2025-06-01 10:38:14,655 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04850
+2025-06-01 10:38:14,749 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.07136
+2025-06-01 10:38:14,841 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04850
+2025-06-01 10:38:14,935 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.07158
+2025-06-01 10:38:15,028 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04788
+2025-06-01 10:38:15,121 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.07158
+2025-06-01 10:38:15,226 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04788
+2025-06-01 10:38:15,443 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.07426
+2025-06-01 10:38:15,640 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04932
+2025-06-01 10:38:15,816 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.07426
+2025-06-01 10:38:15,994 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04932
+2025-06-01 10:38:16,177 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.07343
+2025-06-01 10:38:16,358 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04797
+2025-06-01 10:38:16,540 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.07343
+2025-06-01 10:38:16,724 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04797
+2025-06-01 10:38:16,724 - __main__ - INFO - Best params (by std of decision function): {'n_estimators': 200, 'max_samples': 'auto', 'contamination': 0.01, 'max_features': 1.0}
+2025-06-01 10:38:16,724 - __main__ - INFO - Manual grid search for Local Outlier Factor (unsupervised)
+2025-06-01 10:38:16,727 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=20, metric=euclidean, STD(score)=7714175.61139
+2025-06-01 10:38:16,729 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=30, metric=euclidean, STD(score)=7714251.59356
+2025-06-01 10:38:16,731 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=20, metric=euclidean, STD(score)=8567895.94171
+2025-06-01 10:38:16,734 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=30, metric=euclidean, STD(score)=8567895.94175
+2025-06-01 10:38:16,734 - __main__ - INFO - Best params (by std of negative_outlier_factor): {'n_neighbors': 10, 'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean'}
+2025-06-01 10:38:16,734 - __main__ - INFO - Best parameters saved to models/hyperparameters.json
+2025-06-01 11:44:49,629 - __main__ - INFO - Loading data from metricbeat-* for the last 7d
+2025-06-01 11:44:49,793 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.103s]
+2025-06-01 11:44:50,444 - __main__ - INFO - Loaded 10000 documents from Elasticsearch
+2025-06-01 11:44:50,482 - __main__ - INFO - Created DataFrame with 1694 rows and 5 columns
+2025-06-01 11:44:50,536 - __main__ - INFO - Manual grid search for Isolation Forest (unsupervised)
+2025-06-01 11:44:50,648 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.06931
+2025-06-01 11:44:50,752 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04433
+2025-06-01 11:44:50,854 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.06931
+2025-06-01 11:44:50,956 - __main__ - INFO - Params: n_estimators=100, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04433
+2025-06-01 11:44:51,070 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.06350
+2025-06-01 11:44:51,179 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04087
+2025-06-01 11:44:51,290 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.06350
+2025-06-01 11:44:51,400 - __main__ - INFO - Params: n_estimators=100, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04087
+2025-06-01 11:44:51,596 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=1.0, STD(score)=0.07020
+2025-06-01 11:44:51,783 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.01, max_features=0.7, STD(score)=0.04599
+2025-06-01 11:44:51,973 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=1.0, STD(score)=0.07020
+2025-06-01 11:44:52,163 - __main__ - INFO - Params: n_estimators=200, max_samples=auto, contamination=0.05, max_features=0.7, STD(score)=0.04599
+2025-06-01 11:44:52,382 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=1.0, STD(score)=0.06419
+2025-06-01 11:44:52,602 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.01, max_features=0.7, STD(score)=0.04174
+2025-06-01 11:44:52,826 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=1.0, STD(score)=0.06419
+2025-06-01 11:44:53,046 - __main__ - INFO - Params: n_estimators=200, max_samples=0.5, contamination=0.05, max_features=0.7, STD(score)=0.04174
+2025-06-01 11:44:53,046 - __main__ - INFO - Best params (by std of decision function): {'n_estimators': 200, 'max_samples': 'auto', 'contamination': 0.01, 'max_features': 1.0}
+2025-06-01 11:44:53,046 - __main__ - INFO - Manual grid search for Local Outlier Factor (unsupervised)
+2025-06-01 11:44:53,051 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=20, metric=euclidean, STD(score)=5825784.62190
+2025-06-01 11:44:53,055 - __main__ - INFO - Params: n_neighbors=5, algo=auto, leaf_size=30, metric=euclidean, STD(score)=5621620.92353
+2025-06-01 11:44:53,060 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=20, metric=euclidean, STD(score)=5059259.02798
+2025-06-01 11:44:53,065 - __main__ - INFO - Params: n_neighbors=10, algo=auto, leaf_size=30, metric=euclidean, STD(score)=5059259.02801
+2025-06-01 11:44:53,065 - __main__ - INFO - Best params (by std of negative_outlier_factor): {'n_neighbors': 5, 'algorithm': 'auto', 'leaf_size': 20, 'metric': 'euclidean'}
+2025-06-01 11:44:53,065 - __main__ - INFO - Best parameters saved to models/hyperparameters.json

@@ -1,0 +1,44 @@
+2025-05-23 11:25:57,262 - __main__ - INFO - Loading compliance data from security-compliance for the last 7d
+2025-05-23 11:25:57,296 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:404 duration:0.003s]
+2025-05-23 11:25:57,296 - __main__ - ERROR - Error loading compliance data: NotFoundError(404, 'index_not_found_exception', 'no such index [security-compliance]', security-compliance, index_or_alias)
+2025-05-23 11:25:57,297 - __main__ - WARNING - No compliance data to analyze
+2025-05-23 11:30:14,942 - __main__ - INFO - Loading compliance data from security-compliance for the last 7d
+2025-05-23 11:30:14,976 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-05-23 11:30:14,976 - __main__ - INFO - Loaded 1 compliance results from Elasticsearch
+2025-05-23 11:30:14,977 - __main__ - INFO - Analyzing compliance data
+2025-05-23 11:30:14,978 - __main__ - INFO - Overall compliance rate: 0.00%
+2025-05-23 11:30:14,979 - __main__ - INFO - Framework CIS compliance rate: 0.00%
+2025-05-23 11:30:14,981 - __main__ - INFO - Top compliance failures: {'Ensure SSH root login is disabled': 1}
+2025-05-23 11:30:14,982 - __main__ - INFO - Analysis results saved to results/compliance_analysis.json
+2025-05-23 11:30:15,052 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance-analysis/_doc [status:201 duration:0.070s]
+2025-05-23 11:30:15,052 - __main__ - INFO - Analysis results indexed to security-compliance-analysis
+2025-05-23 17:24:23,070 - __main__ - INFO - Loading compliance data from security-compliance for the last 7d
+2025-05-23 17:24:23,104 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-05-23 17:24:23,104 - __main__ - INFO - Loaded 1 compliance results from Elasticsearch
+2025-05-23 17:24:23,105 - __main__ - INFO - Analyzing compliance data
+2025-05-23 17:24:23,105 - __main__ - INFO - Overall compliance rate: 0.00%
+2025-05-23 17:24:23,106 - __main__ - INFO - Framework CIS compliance rate: 0.00%
+2025-05-23 17:24:23,108 - __main__ - INFO - Top compliance failures: {'Ensure SSH root login is disabled': 1}
+2025-05-23 17:24:23,109 - __main__ - INFO - Analysis results saved to results/compliance_analysis.json
+2025-05-23 17:24:23,114 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance-analysis/_doc [status:201 duration:0.004s]
+2025-05-23 17:24:23,114 - __main__ - INFO - Analysis results indexed to security-compliance-analysis
+2025-05-23 20:03:16,316 - __main__ - INFO - Loading compliance data from security-compliance for the last 7d
+2025-05-23 20:03:16,352 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.005s]
+2025-05-23 20:03:16,352 - __main__ - INFO - Loaded 1 compliance results from Elasticsearch
+2025-05-23 20:03:16,352 - __main__ - INFO - Analyzing compliance data
+2025-05-23 20:03:16,353 - __main__ - INFO - Overall compliance rate: 0.00%
+2025-05-23 20:03:16,354 - __main__ - INFO - Framework CIS compliance rate: 0.00%
+2025-05-23 20:03:16,356 - __main__ - INFO - Top compliance failures: {'Ensure SSH root login is disabled': 1}
+2025-05-23 20:03:16,356 - __main__ - INFO - Analysis results saved to results/compliance_analysis.json
+2025-05-23 20:03:16,359 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance-analysis/_doc [status:201 duration:0.003s]
+2025-05-23 20:03:16,360 - __main__ - INFO - Analysis results indexed to security-compliance-analysis
+2025-06-01 10:07:21,262 - __main__ - INFO - Loading compliance data from security-compliance for the last 7d
+2025-06-01 10:07:21,298 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-06-01 10:07:21,298 - __main__ - INFO - Loaded 0 compliance results from Elasticsearch
+2025-06-01 10:07:21,298 - __main__ - WARNING - No compliance data found in security-compliance
+2025-06-01 10:07:21,299 - __main__ - WARNING - No compliance data to analyze
+2025-06-01 11:44:38,356 - __main__ - INFO - Loading compliance data from security-compliance for the last 7d
+2025-06-01 11:44:38,401 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-06-01 11:44:38,402 - __main__ - INFO - Loaded 0 compliance results from Elasticsearch
+2025-06-01 11:44:38,402 - __main__ - WARNING - No compliance data found in security-compliance
+2025-06-01 11:44:38,402 - __main__ - WARNING - No compliance data to analyze

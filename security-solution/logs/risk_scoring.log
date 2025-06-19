@@ -1,0 +1,1411 @@
+2025-05-23 11:54:56,690 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 11:54:56,690 - __main__ - INFO - Loading asset criticality from config/asset_criticality.json
+2025-05-23 11:54:56,691 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 11:54:56,691 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 11:54:56,751 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.029s]
+2025-05-23 11:54:56,784 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 11:54:56,811 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 11:54:56,814 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 11:54:56,815 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 11:54:56,815 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 11:54:56,818 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 11:54:56,818 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 11:54:56,819 - __main__ - INFO - Calculating risk scores
+2025-05-23 11:54:56,820 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 11:54:56,823 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 11:54:56,835 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.011s]
+2025-05-23 11:54:56,835 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 11:54:56,835 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 11:55:01,243 - __main__ - INFO - Risk scoring service shutting down
+2025-05-23 11:55:28,506 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 11:55:28,506 - __main__ - INFO - Loading asset criticality from config/asset_criticality.json
+2025-05-23 11:55:28,506 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 11:55:28,506 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 11:55:28,557 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.020s]
+2025-05-23 11:55:28,587 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 11:55:28,610 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 11:55:28,613 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 11:55:28,613 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 11:55:28,614 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 11:55:28,617 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-05-23 11:55:28,617 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 11:55:28,618 - __main__ - INFO - Calculating risk scores
+2025-05-23 11:55:28,619 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 11:55:28,622 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 11:55:28,631 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.008s]
+2025-05-23 11:55:28,631 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 11:55:28,631 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 11:55:33,298 - __main__ - INFO - Risk scoring service shutting down
+2025-05-23 12:00:46,920 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 12:00:46,920 - __main__ - INFO - Loading asset criticality from config/asset_criticality.json
+2025-05-23 12:00:46,920 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 12:00:46,920 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 12:00:46,983 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.032s]
+2025-05-23 12:00:47,020 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 12:00:47,047 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 12:00:47,049 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.001s]
+2025-05-23 12:00:47,049 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 12:00:47,050 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 12:00:47,052 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 12:00:47,052 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 12:00:47,053 - __main__ - INFO - Calculating risk scores
+2025-05-23 12:00:47,054 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 12:00:47,058 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 12:00:47,069 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.010s]
+2025-05-23 12:00:47,069 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 12:00:47,070 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 12:00:56,563 - __main__ - INFO - Risk scoring service shutting down
+2025-05-23 17:17:08,630 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 17:17:08,631 - __main__ - INFO - Loading asset criticality from config/asset_criticality.json
+2025-05-23 17:17:08,631 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 17:17:08,631 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 17:17:08,687 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.026s]
+2025-05-23 17:17:08,719 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 17:17:08,746 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 17:17:08,748 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.001s]
+2025-05-23 17:17:08,749 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 17:17:08,749 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 17:17:08,753 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-05-23 17:17:08,753 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 17:17:08,753 - __main__ - INFO - Calculating risk scores
+2025-05-23 17:17:08,755 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 17:17:08,758 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 17:17:08,771 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.012s]
+2025-05-23 17:17:08,771 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 17:17:08,771 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 17:32:08,864 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 17:32:08,864 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 17:32:08,895 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.030s]
+2025-05-23 17:32:08,954 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 17:32:08,993 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 17:32:08,995 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 17:32:08,997 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 17:32:08,998 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 17:32:09,001 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 17:32:09,001 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 17:32:09,002 - __main__ - INFO - Calculating risk scores
+2025-05-23 17:32:09,003 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 17:32:09,007 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 17:32:09,020 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.012s]
+2025-05-23 17:32:09,020 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 17:32:09,020 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 17:47:09,095 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 17:47:09,095 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 17:47:09,118 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.022s]
+2025-05-23 17:47:09,147 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 17:47:09,181 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 17:47:09,183 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.001s]
+2025-05-23 17:47:09,183 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 17:47:09,184 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 17:47:09,186 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 17:47:09,186 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 17:47:09,187 - __main__ - INFO - Calculating risk scores
+2025-05-23 17:47:09,189 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 17:47:09,193 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 17:47:09,206 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.012s]
+2025-05-23 17:47:09,206 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 17:47:09,206 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 18:02:09,307 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 18:02:09,308 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 18:02:09,342 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.033s]
+2025-05-23 18:02:09,474 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 18:02:09,532 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 18:02:09,536 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.003s]
+2025-05-23 18:02:09,537 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 18:02:09,537 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 18:02:09,542 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.004s]
+2025-05-23 18:02:09,543 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 18:02:09,544 - __main__ - INFO - Calculating risk scores
+2025-05-23 18:02:09,547 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 18:02:09,556 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 18:02:09,587 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.030s]
+2025-05-23 18:02:09,588 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 18:02:09,589 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 18:17:09,688 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 18:17:09,689 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 18:17:09,718 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.028s]
+2025-05-23 18:17:09,753 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 18:17:09,798 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 18:17:09,801 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 18:17:09,802 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 18:17:09,803 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 18:17:09,805 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 18:17:09,806 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 18:17:09,806 - __main__ - INFO - Calculating risk scores
+2025-05-23 18:17:09,808 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 18:17:09,814 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 18:17:09,829 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.014s]
+2025-05-23 18:17:09,830 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 18:17:09,830 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 18:32:09,896 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 18:32:09,896 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 18:32:09,933 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.035s]
+2025-05-23 18:32:09,980 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 18:32:10,097 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 18:32:10,101 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 18:32:10,101 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 18:32:10,102 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 18:32:10,105 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 18:32:10,105 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 18:32:10,106 - __main__ - INFO - Calculating risk scores
+2025-05-23 18:32:10,108 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 18:32:10,113 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 18:32:10,131 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.017s]
+2025-05-23 18:32:10,131 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 18:32:10,131 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 18:51:07,043 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 18:51:07,082 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 18:51:07,173 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.044s]
+2025-05-23 18:51:07,246 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 18:51:07,336 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 18:51:07,339 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 18:51:07,339 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 18:51:07,344 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 18:51:07,348 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 18:51:07,348 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 18:51:07,350 - __main__ - INFO - Calculating risk scores
+2025-05-23 18:51:07,353 - __main__ - INFO - Calculating risk scores for 3 assets
+2025-05-23 18:51:07,369 - __main__ - INFO - Indexing 3 risk scores to security-risk-scores
+2025-05-23 18:51:07,393 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.020s]
+2025-05-23 18:51:07,395 - __main__ - INFO - Successfully indexed 3 risk scores, errors: []
+2025-05-23 18:51:07,395 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 19:06:24,281 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 19:06:24,317 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 19:06:24,685 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.227s]
+2025-05-23 19:06:25,399 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 19:06:25,613 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 19:06:25,616 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.003s]
+2025-05-23 19:06:25,618 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 19:06:25,642 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 19:06:25,653 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.011s]
+2025-05-23 19:06:25,654 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 19:06:25,657 - __main__ - INFO - Calculating risk scores
+2025-05-23 19:06:25,673 - __main__ - INFO - Calculating risk scores for 3 assets
+2025-05-23 19:06:25,704 - __main__ - INFO - Indexing 3 risk scores to security-risk-scores
+2025-05-23 19:06:25,751 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.038s]
+2025-05-23 19:06:25,751 - __main__ - INFO - Successfully indexed 3 risk scores, errors: []
+2025-05-23 19:06:25,751 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 19:24:08,572 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 19:24:08,618 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 19:24:08,973 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.208s]
+2025-05-23 19:24:11,134 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 19:24:11,322 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 19:24:11,326 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 19:24:11,327 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 19:24:11,329 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 19:24:11,333 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.004s]
+2025-05-23 19:24:11,334 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 19:24:11,335 - __main__ - INFO - Calculating risk scores
+2025-05-23 19:24:11,339 - __main__ - INFO - Calculating risk scores for 3 assets
+2025-05-23 19:24:11,354 - __main__ - INFO - Indexing 3 risk scores to security-risk-scores
+2025-05-23 19:24:11,371 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.016s]
+2025-05-23 19:24:11,372 - __main__ - INFO - Successfully indexed 3 risk scores, errors: []
+2025-05-23 19:24:11,372 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 19:39:11,349 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 19:39:11,377 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 19:39:11,536 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.061s]
+2025-05-23 19:39:11,541 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout
+2025-05-23 19:39:11,542 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a074906fd60>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a074906fd60>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,582 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.001s]
+2025-05-23 19:39:11,582 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout
+2025-05-23 19:39:11,582 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c8130>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c8130>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,583 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.000s]
+2025-05-23 19:39:11,583 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout
+2025-05-23 19:39:11,583 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c9630>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c9630>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,585 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.001s]
+2025-05-23 19:39:11,585 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout
+2025-05-23 19:39:11,586 - __main__ - ERROR - Error loading anomalies from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a074906fd60>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:39:11,914 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 19:39:11,916 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.001s]
+2025-05-23 19:39:11,916 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 5 times in a row, putting on 16 second timeout
+2025-05-23 19:39:11,916 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a074906d690>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a074906d690>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,918 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.000s]
+2025-05-23 19:39:11,918 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 6 times in a row, putting on 30 second timeout
+2025-05-23 19:39:11,918 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c9f60>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c9f60>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,919 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.000s]
+2025-05-23 19:39:11,919 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 7 times in a row, putting on 30 second timeout
+2025-05-23 19:39:11,919 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490ca020>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490ca020>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,924 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.004s]
+2025-05-23 19:39:11,924 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 8 times in a row, putting on 30 second timeout
+2025-05-23 19:39:11,924 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a074906d690>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:39:11,925 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 19:39:11,926 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:39:11,926 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 9 times in a row, putting on 30 second timeout
+2025-05-23 19:39:11,926 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c82b0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c82b0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,926 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:39:11,926 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 10 times in a row, putting on 30 second timeout
+2025-05-23 19:39:11,926 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c9900>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c9900>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,927 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:39:11,927 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 11 times in a row, putting on 30 second timeout
+2025-05-23 19:39:11,927 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c9690>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c9690>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:39:11,927 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:39:11,927 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 12 times in a row, putting on 30 second timeout
+2025-05-23 19:39:11,927 - __main__ - ERROR - Error loading compliance issues from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c82b0>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:39:11,929 - __main__ - INFO - Calculating risk scores
+2025-05-23 19:39:11,931 - __main__ - WARNING - No assets found for risk scoring
+2025-05-23 19:39:11,933 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 19:54:12,032 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 19:54:12,032 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 19:54:12,033 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,033 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,034 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 13 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,034 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c86a0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c86a0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,035 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,035 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,035 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 14 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,035 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c9720>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c9720>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,036 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,036 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,036 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 15 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,036 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c87f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c87f0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,037 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,037 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,037 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 16 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,037 - __main__ - ERROR - Error loading anomalies from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c86a0>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:54:12,038 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 19:54:12,039 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,039 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,039 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 17 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,039 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c9570>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c9570>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,040 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,041 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.001s]
+2025-05-23 19:54:12,041 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 18 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,041 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490ca680>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490ca680>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,041 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,042 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.001s]
+2025-05-23 19:54:12,043 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 19 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,043 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490ca8f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490ca8f0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,043 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,043 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,043 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 20 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,044 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c9570>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:54:12,044 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 19:54:12,045 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,045 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,045 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 21 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,045 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490ca410>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490ca410>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,045 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,046 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,046 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 22 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,046 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c91b0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c91b0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,046 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,047 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,047 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 23 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,047 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7a07490c89a0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490c89a0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:54:12,048 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:54:12,048 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:N/A duration:0.000s]
+2025-05-23 19:54:12,048 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 24 times in a row, putting on 30 second timeout
+2025-05-23 19:54:12,048 - __main__ - ERROR - Error loading compliance issues from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7a07490ca410>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:54:12,048 - __main__ - INFO - Calculating risk scores
+2025-05-23 19:54:12,048 - __main__ - WARNING - No assets found for risk scoring
+2025-05-23 19:54:12,049 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 20:02:58,793 - __main__ - INFO - Risk scoring service shutting down
+2025-05-23 20:03:03,874 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 20:03:03,874 - __main__ - INFO - Loading asset criticality from config/asset_criticality.json
+2025-05-23 20:03:03,875 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 20:03:03,875 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 20:03:03,935 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.029s]
+2025-05-23 20:03:03,965 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 20:03:03,991 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 20:03:03,993 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-23 20:03:03,993 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 20:03:03,994 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 20:03:03,998 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-05-23 20:03:03,998 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 20:03:03,999 - __main__ - INFO - Calculating risk scores
+2025-05-23 20:03:04,000 - __main__ - INFO - Calculating risk scores for 3 assets
+2025-05-23 20:03:04,006 - __main__ - INFO - Indexing 3 risk scores to security-risk-scores
+2025-05-23 20:03:04,019 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.013s]
+2025-05-23 20:03:04,019 - __main__ - INFO - Successfully indexed 3 risk scores, errors: []
+2025-05-23 20:03:04,020 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-23 20:18:04,129 - __main__ - INFO - Starting risk scoring cycle
+2025-05-23 20:18:04,141 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-23 20:18:04,181 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.022s]
+2025-05-23 20:18:04,316 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-23 20:18:04,342 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-23 20:18:04,344 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.001s]
+2025-05-23 20:18:04,344 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-23 20:18:04,345 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-23 20:18:04,348 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-05-23 20:18:04,348 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-23 20:18:04,349 - __main__ - INFO - Calculating risk scores
+2025-05-23 20:18:04,349 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-23 20:18:04,353 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-23 20:18:04,365 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.010s]
+2025-05-23 20:18:04,365 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-23 20:18:04,365 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-05-24 10:54:33,593 - __main__ - INFO - Starting risk scoring cycle
+2025-05-24 10:54:33,605 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-05-24 10:54:33,680 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.058s]
+2025-05-24 10:54:33,849 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-05-24 10:54:33,941 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-05-24 10:54:33,945 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-05-24 10:54:33,950 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-05-24 10:54:33,960 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-05-24 10:54:33,967 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.006s]
+2025-05-24 10:54:33,967 - __main__ - INFO - Loaded 1 compliance issues from Elasticsearch
+2025-05-24 10:54:33,969 - __main__ - INFO - Calculating risk scores
+2025-05-24 10:54:33,972 - __main__ - INFO - Calculating risk scores for 2 assets
+2025-05-24 10:54:33,985 - __main__ - INFO - Indexing 2 risk scores to security-risk-scores
+2025-05-24 10:54:34,007 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.019s]
+2025-05-24 10:54:34,008 - __main__ - INFO - Successfully indexed 2 risk scores, errors: []
+2025-05-24 10:54:34,008 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 10:04:38,175 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 10:04:38,195 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 10:04:38,345 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.068s]
+2025-06-01 10:04:38,354 - __main__ - INFO - Loaded 66 anomalies from Elasticsearch
+2025-06-01 10:04:38,513 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 10:04:38,517 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 10:04:38,519 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 10:04:38,532 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 10:04:38,536 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.004s]
+2025-06-01 10:04:38,536 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 10:04:38,543 - __main__ - INFO - Calculating risk scores
+2025-06-01 10:04:38,547 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 10:04:38,554 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 10:04:38,576 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.017s]
+2025-06-01 10:04:38,577 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 10:04:38,577 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 10:06:54,173 - __main__ - INFO - Risk scoring service shutting down
+2025-06-01 10:06:58,656 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-06-01 10:06:58,656 - __main__ - INFO - Loading asset criticality from config/asset_criticality.json
+2025-06-01 10:06:58,657 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 10:06:58,657 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 10:06:58,706 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.016s]
+2025-06-01 10:06:58,707 - __main__ - INFO - Loaded 233 anomalies from Elasticsearch
+2025-06-01 10:06:58,708 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 10:06:58,711 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 10:06:58,711 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 10:06:58,711 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 10:06:58,714 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-06-01 10:06:58,714 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 10:06:58,714 - __main__ - INFO - Calculating risk scores
+2025-06-01 10:06:58,715 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 10:06:58,716 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 10:06:58,732 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.016s]
+2025-06-01 10:06:58,732 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 10:06:58,732 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 10:20:59,132 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 10:20:59,173 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 10:20:59,417 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.148s]
+2025-06-01 10:20:59,514 - __main__ - INFO - Loaded 1753 anomalies from Elasticsearch
+2025-06-01 10:20:59,530 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 10:20:59,533 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 10:20:59,535 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 10:20:59,538 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 10:20:59,541 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-06-01 10:20:59,541 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 10:20:59,543 - __main__ - INFO - Calculating risk scores
+2025-06-01 10:20:59,544 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 10:20:59,549 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 10:20:59,586 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.032s]
+2025-06-01 10:20:59,586 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 10:20:59,587 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 10:35:59,690 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 10:35:59,697 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 10:35:59,742 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.025s]
+2025-06-01 10:35:59,759 - __main__ - INFO - Loaded 4703 anomalies from Elasticsearch
+2025-06-01 10:35:59,798 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 10:35:59,802 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.003s]
+2025-06-01 10:35:59,802 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 10:35:59,816 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 10:35:59,820 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.003s]
+2025-06-01 10:35:59,820 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 10:35:59,823 - __main__ - INFO - Calculating risk scores
+2025-06-01 10:35:59,826 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 10:35:59,833 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 10:35:59,843 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.008s]
+2025-06-01 10:35:59,843 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 10:35:59,843 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 10:50:59,967 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 10:50:59,995 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 10:51:00,160 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.087s]
+2025-06-01 10:51:01,458 - __main__ - INFO - Loaded 9148 anomalies from Elasticsearch
+2025-06-01 10:51:01,494 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 10:51:01,497 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 10:51:01,497 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 10:51:01,498 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 10:51:01,501 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-06-01 10:51:01,501 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 10:51:01,501 - __main__ - INFO - Calculating risk scores
+2025-06-01 10:51:01,504 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 10:51:01,507 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 10:51:01,518 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.010s]
+2025-06-01 10:51:01,518 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 10:51:01,518 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 11:06:01,616 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 11:06:01,623 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 11:06:01,686 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.040s]
+2025-06-01 11:06:01,715 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 11:06:01,747 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 11:06:01,750 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 11:06:01,751 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 11:06:01,753 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 11:06:01,755 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-06-01 11:06:01,755 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 11:06:01,756 - __main__ - INFO - Calculating risk scores
+2025-06-01 11:06:01,757 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 11:06:01,760 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 11:06:01,770 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.009s]
+2025-06-01 11:06:01,771 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 11:06:01,771 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 11:21:01,851 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 11:21:01,854 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 11:21:01,900 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.030s]
+2025-06-01 11:21:02,004 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 11:21:02,425 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 11:21:02,427 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 11:21:02,427 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 11:21:02,428 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 11:21:02,430 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.001s]
+2025-06-01 11:21:02,430 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 11:21:02,431 - __main__ - INFO - Calculating risk scores
+2025-06-01 11:21:02,432 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 11:21:02,436 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 11:21:02,447 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.010s]
+2025-06-01 11:21:02,448 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 11:21:02,448 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 11:36:02,513 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 11:36:02,515 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 11:36:02,617 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.098s]
+2025-06-01 11:36:02,710 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 11:36:02,753 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 11:36:02,756 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 11:36:02,756 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 11:36:02,757 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 11:36:02,759 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.001s]
+2025-06-01 11:36:02,759 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 11:36:02,759 - __main__ - INFO - Calculating risk scores
+2025-06-01 11:36:02,761 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 11:36:02,764 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 11:36:02,777 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.012s]
+2025-06-01 11:36:02,777 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 11:36:02,777 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 11:42:52,153 - __main__ - INFO - Risk scoring service shutting down
+2025-06-01 11:44:21,523 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-06-01 11:44:21,523 - __main__ - INFO - Loading asset criticality from config/asset_criticality.json
+2025-06-01 11:44:21,534 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 11:44:21,534 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 11:44:21,594 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.028s]
+2025-06-01 11:44:21,625 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 11:44:21,653 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 11:44:21,655 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 11:44:21,656 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 11:44:21,656 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 11:44:21,659 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-06-01 11:44:21,659 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 11:44:21,660 - __main__ - INFO - Calculating risk scores
+2025-06-01 11:44:21,661 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 11:44:21,662 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 11:44:21,672 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.009s]
+2025-06-01 11:44:21,672 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 11:44:21,672 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 11:59:21,806 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 11:59:21,847 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 11:59:22,067 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.116s]
+2025-06-01 11:59:23,333 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 11:59:23,375 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 11:59:23,377 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.001s]
+2025-06-01 11:59:23,378 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 11:59:23,379 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 11:59:23,381 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.001s]
+2025-06-01 11:59:23,381 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 11:59:23,382 - __main__ - INFO - Calculating risk scores
+2025-06-01 11:59:23,384 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 11:59:23,388 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 11:59:23,399 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.010s]
+2025-06-01 11:59:23,399 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 11:59:23,399 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 12:14:23,460 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 12:14:23,461 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 12:14:23,486 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.024s]
+2025-06-01 12:14:23,509 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 12:14:23,533 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 12:14:23,535 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.001s]
+2025-06-01 12:14:23,535 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 12:14:23,535 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 12:14:23,537 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.001s]
+2025-06-01 12:14:23,537 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 12:14:23,537 - __main__ - INFO - Calculating risk scores
+2025-06-01 12:14:23,538 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 12:14:23,540 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 12:14:23,548 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.008s]
+2025-06-01 12:14:23,549 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 12:14:23,549 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 12:29:23,643 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 12:29:23,644 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 12:29:23,670 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.025s]
+2025-06-01 12:29:24,229 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 12:29:24,260 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 12:29:24,262 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.002s]
+2025-06-01 12:29:24,262 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 12:29:24,263 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 12:29:24,265 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-06-01 12:29:24,265 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 12:29:24,266 - __main__ - INFO - Calculating risk scores
+2025-06-01 12:29:24,267 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 12:29:24,270 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 12:29:24,283 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.012s]
+2025-06-01 12:29:24,283 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 12:29:24,283 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 12:45:25,636 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 12:44:27,557 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 12:44:42,164 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:10.672s]
+2025-06-01 12:44:43,040 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 12:44:43,571 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 12:44:43,580 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.006s]
+2025-06-01 12:44:43,586 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 12:44:43,666 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 12:44:43,673 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.005s]
+2025-06-01 12:44:43,673 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 12:44:43,685 - __main__ - INFO - Calculating risk scores
+2025-06-01 12:44:43,705 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 12:44:43,732 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 12:44:43,797 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.043s]
+2025-06-01 12:44:43,798 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 12:44:43,798 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 12:59:43,879 - __main__ - INFO - Starting risk scoring cycle
+2025-06-01 12:59:43,917 - __main__ - INFO - Loading anomalies from security-anomalies for the last 1d
+2025-06-01 12:59:44,078 - elastic_transport.transport - INFO - POST http://localhost:9200/security-anomalies/_search [status:200 duration:0.094s]
+2025-06-01 12:59:44,578 - __main__ - INFO - Loaded 10000 anomalies from Elasticsearch
+2025-06-01 12:59:45,408 - __main__ - INFO - Loading vulnerabilities from security-vulnerabilities for the last 7d
+2025-06-01 12:59:45,410 - elastic_transport.transport - INFO - POST http://localhost:9200/security-vulnerabilities/_search [status:404 duration:0.001s]
+2025-06-01 12:59:45,410 - __main__ - ERROR - Error loading vulnerabilities from Elasticsearch: NotFoundError(404, 'index_not_found_exception', 'no such index [security-vulnerabilities]', security-vulnerabilities, index_or_alias)
+2025-06-01 12:59:45,411 - __main__ - INFO - Loading compliance issues from security-compliance for the last 7d
+2025-06-01 12:59:45,414 - elastic_transport.transport - INFO - POST http://localhost:9200/security-compliance/_search [status:200 duration:0.002s]
+2025-06-01 12:59:45,414 - __main__ - INFO - Loaded 0 compliance issues from Elasticsearch
+2025-06-01 12:59:45,415 - __main__ - INFO - Calculating risk scores
+2025-06-01 12:59:45,417 - __main__ - INFO - Calculating risk scores for 1 assets
+2025-06-01 12:59:45,423 - __main__ - INFO - Indexing 1 risk scores to security-risk-scores
+2025-06-01 12:59:45,439 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.015s]
+2025-06-01 12:59:45,439 - __main__ - INFO - Successfully indexed 1 risk scores, errors: []
+2025-06-01 12:59:45,439 - __main__ - INFO - Risk scoring cycle completed, sleeping for 15 minutes
+2025-06-01 13:12:50,301 - __main__ - INFO - Risk scoring service shutting down

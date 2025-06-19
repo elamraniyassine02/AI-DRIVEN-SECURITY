@@ -1,0 +1,37 @@
+2025-05-23 11:52:52,021 - __main__ - INFO - Collecting logs from local files
+2025-05-23 11:52:52,021 - __main__ - INFO - Collecting logs from /var/log/auth.log of type auth
+2025-05-23 11:52:52,121 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.083s]
+2025-05-23 11:52:52,121 - __main__ - INFO - Indexed 227 log entries to security-logs
+2025-05-23 11:52:52,121 - __main__ - INFO - Collected and indexed 227 log entries from /var/log/auth.log
+2025-05-23 11:52:52,122 - __main__ - INFO - Collecting logs from /var/log/syslog of type syslog
+2025-05-23 11:52:52,147 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.019s]
+2025-05-23 11:52:52,149 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,177 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.022s]
+2025-05-23 11:52:52,178 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,204 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.021s]
+2025-05-23 11:52:52,205 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,229 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.019s]
+2025-05-23 11:52:52,230 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,254 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.018s]
+2025-05-23 11:52:52,255 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,280 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.019s]
+2025-05-23 11:52:52,280 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,305 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.018s]
+2025-05-23 11:52:52,306 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,335 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.023s]
+2025-05-23 11:52:52,336 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,364 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.022s]
+2025-05-23 11:52:52,365 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,390 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.020s]
+2025-05-23 11:52:52,399 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,425 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.021s]
+2025-05-23 11:52:52,426 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,454 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.022s]
+2025-05-23 11:52:52,455 - __main__ - INFO - Indexed 500 log entries to security-logs
+2025-05-23 11:52:52,471 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.013s]
+2025-05-23 11:52:52,472 - __main__ - INFO - Indexed 246 log entries to security-logs
+2025-05-23 11:52:52,472 - __main__ - INFO - Collected and indexed 6473 log entries from /var/log/syslog
+2025-05-23 11:52:52,472 - __main__ - INFO - Collecting logs from remote hosts
+2025-05-23 11:52:52,472 - __main__ - WARNING - Remote log collection is not implemented in this stub.
+2025-05-23 17:26:11,477 - __main__ - INFO - Collecting logs from local files
+2025-05-23 17:27:02,578 - __main__ - INFO - Collecting logs from local files

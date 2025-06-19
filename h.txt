@@ -1,0 +1,109 @@
+**Récupération complète : mode ARCHIVELOG**
+
+1. Vérifie le mode d’archivage :
+
+* SELECT LOG\_MODE FROM V\$DATABASE;
+* ARCHIVE LOG LIST
+
+2. Passe en ARCHIVELOG :
+
+* SHUTDOWN IMMEDIATE
+* STARTUP MOUNT
+* ALTER DATABASE ARCHIVELOG
+* ALTER DATABASE OPEN
+
+3. Re-vérifie avec ARCHIVE LOG LIST (note le numéro de séquence)
+
+4. Sauvegarde offline :
+
+* SHUTDOWN IMMEDIATE
+* Copie tous les fichiers de ORCL19 vers BACKUP/UMAN
+* STARTUP
+
+5. (Si pas de script) Créé la table HR.EMPHIST et insère des lignes
+
+* CREATE TABLE HR.EMPHIST (EMPNO NUMBER, ENAME VARCHAR2(50), ACTION\_DATE DATE, ACTION\_TYPE VARCHAR2(20))
+* INSERT INTO HR.EMPHIST VALUES (...)
+* SELECT COUNT(\*) FROM HR.EMPHIST
+
+6. Trouve le datafile :
+
+* SELECT a.tablespace\_name, b.file\_name FROM dba\_segments a JOIN dba\_data\_files b ON a.tablespace\_name = b.tablespace\_name WHERE a.segment\_name = 'EMPHIST' AND a.owner = 'HR';
+
+7. Simule un incident :
+
+* SHUTDOWN IMMEDIATE
+* Renomme/déplace le datafile (ex: USERS01.DBF)
+
+8. Essaie STARTUP (erreur attendue)
+
+9. Restaure le datafile depuis BACKUP/UMAN
+
+10. Récupère la base :
+
+* STARTUP MOUNT
+* RECOVER DATABASE
+* ALTER DATABASE OPEN
+
+11. Vérifie USERS :
+
+* SELECT TABLESPACE\_NAME, STATUS FROM DBA\_TABLESPACES WHERE TABLESPACE\_NAME='USERS';
+
+12. Vérifie EMPHIST :
+
+* SELECT \* FROM HR.EMPHIST
+
+13. Vérifie V\$LOG (numéro de séquence)
+
+14. Conclusion : en ARCHIVELOG, on peut restaurer jusqu’à la dernière transaction grâce aux archives logs, aucune donnée validée n’est perdue.
+
+---
+
+
+
+
+
+
+**Récupération complète : mode NOARCHIVELOG**
+
+1. Passe en NOARCHIVELOG :
+
+* SHUTDOWN IMMEDIATE
+* STARTUP MOUNT
+* ALTER DATABASE NOARCHIVELOG
+* ALTER DATABASE OPEN
+* ARCHIVE LOG LIST
+
+2. Sauvegarde offline :
+
+* SHUTDOWN IMMEDIATE
+* Copie tous les fichiers de ORCL19 vers BACKUP/NOARCH
+* STARTUP
+
+3. (Si pas de script) Créé la table HR.EMPHIST et insère des lignes
+
+* CREATE TABLE HR.EMPHIST (...)
+* INSERT INTO HR.EMPHIST VALUES (...)
+* SELECT COUNT(\*) FROM HR.EMPHIST
+
+4. Trouve le datafile (voir commande ARCHIVELOG ci-dessus)
+
+5. Simule un incident :
+
+* SHUTDOWN IMMEDIATE
+* Renomme/déplace le datafile
+
+6. Essaie STARTUP (erreur attendue)
+
+7. Restaure tous les fichiers depuis BACKUP/NOARCH vers ORCL19
+
+8. STARTUP
+
+9. Vérifie EMPHIST :
+
+* SELECT \* FROM HR.EMPHIST
+* Résultat : seules les données présentes à la sauvegarde sont là. Toutes les modifications faites après sont perdues.
+
+10. Conclusion : en NOARCHIVELOG, tu perds toutes les transactions après la sauvegarde en cas d’incident. Sauvegarde = état exact au moment du backup, impossible d’aller plus loin.
+
+

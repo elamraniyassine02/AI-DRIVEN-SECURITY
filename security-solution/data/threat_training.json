@@ -1,0 +1,18 @@
+[
+    {
+        "message": "Failed password for root from 192.168.1.10 port 22 ssh2",
+        "threat_type": "brute_force"
+    },
+    {
+        "message": "Accepted publickey for ubuntu from 192.168.1.11 port 22 ssh2",
+        "threat_type": "normal"
+    },
+    {
+        "message": "sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)",
+        "threat_type": "privilege_escalation"
+    },
+    {
+        "message": "Malware detected on endpoint host123",
+        "threat_type": "malware"
+    }
+]

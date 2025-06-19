@@ -1,0 +1,48 @@
+
+
+syntax = "proto3";
+
+package security;
+
+service MessageQueue {
+  rpc SendMessage(Message) returns (MessageResponse) {}
+  rpc GetMessages(WorkerInfo) returns (MessageList) {}
+  rpc GetStatus(EmptyRequest) returns (StatusResponse) {}
+}
+
+message Message {
+  string worker_id = 1;
+  string type = 2;
+  string data = 3;
+  string timestamp = 4;
+}
+
+message MessageResponse {
+  string status = 1;
+  string message = 2;
+}
+
+message WorkerInfo {
+  string worker_id = 1;
+  string worker_type = 2;
+}
+
+message MessageList {
+  repeated Message messages = 1;
+}
+
+message EmptyRequest {
+}
+
+message StatusResponse {
+  string status = 1;
+  map<string, WorkerStatus> workers = 2;
+}
+
+message WorkerStatus {
+  string id = 1;
+  string type = 2;
+  string host = 3;
+  double last_heartbeat = 4;
+  string status = 5;
+}

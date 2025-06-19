@@ -1,0 +1,7 @@
+[
+  {
+    "indicator": "malicious-domain.com",
+    "threat_level": "medium",
+    "description": "Test malicious domain"
+  }
+]

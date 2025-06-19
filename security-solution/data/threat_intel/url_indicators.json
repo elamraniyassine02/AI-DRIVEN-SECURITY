@@ -1,0 +1,7 @@
+[
+  {
+    "indicator": "http://malicious-url.com/phish",
+    "threat_level": "critical",
+    "description": "Test malicious URL"
+  }
+]

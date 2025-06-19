@@ -1,0 +1,10 @@
+[
+  {"message": "Failed login from 192.168.1.1", "threat_type": "brute_force"},
+  {"message": "User added to admin group", "threat_type": "privilege_escalation"},
+  {"message": "Suspicious outbound traffic detected", "threat_type": "c2_traffic"},
+  {"message": "Multiple failed SSH logins", "threat_type": "brute_force"},
+  {"message": "Unusual port scan detected", "threat_type": "reconnaissance"},
+  {"message": "Malware signature detected in file upload", "threat_type": "malware"},
+  {"message": "Unauthorized file access", "threat_type": "insider_threat"},
+  {"message": "Data exfiltration detected", "threat_type": "data_exfiltration"}
+]

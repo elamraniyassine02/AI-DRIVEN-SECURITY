@@ -1,0 +1,15 @@
+{
+  "isolation_forest": {
+    "n_estimators": 200,
+    "max_samples": "auto",
+    "contamination": 0.01,
+    "max_features": 1.0
+  },
+  "local_outlier_factor": {
+    "n_neighbors": 5,
+    "algorithm": "auto",
+    "leaf_size": 20,
+    "metric": "euclidean"
+  },
+  "timestamp": "2025-06-01 11:44:53"
+}

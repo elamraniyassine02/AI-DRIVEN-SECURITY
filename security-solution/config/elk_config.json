@@ -1,0 +1,127 @@
+{
+  "elk": {
+    "elasticsearch": {
+      "hosts": ["http://localhost:9200"],
+      "indices": {
+        "anomalies": "security-anomalies",
+        "vulnerabilities": "security-vulnerabilities",
+        "compliance": "security-compliance",
+        "risk_scores": "security-risk-scores",
+        "logs": "security-logs",
+        "threat_training": "security-threat-training"
+      }
+    },
+    "logstash": {
+      "host": "localhost",
+      "port": 5044
+    },
+    "kibana": {
+      "host": "localhost",
+      "port": 5601
+    },
+    "index_templates": {
+      "anomalies": {
+        "index_patterns": ["security-anomalies*"],
+        "mappings": {
+          "properties": {
+            "@timestamp": { "type": "date" },
+            "anomaly_score": { "type": "float" },
+            "host": { "type": "keyword" },
+            "anomaly_type": { "type": "keyword" },
+            "source": { "type": "keyword" },
+            "details": { "type": "object" }
+          }
+        }
+      },
+      "vulnerabilities": {
+        "index_patterns": ["security-vulnerabilities*"],
+        "mappings": {
+          "properties": {
+            "@timestamp": { "type": "date" },
+            "host": { "type": "keyword" },
+            "port": { "type": "integer" },
+            "service": { "type": "keyword" },
+            "severity": { "type": "keyword" },
+            "description": { "type": "text" }
+          }
+        }
+      },
+      "compliance": {
+        "index_patterns": ["security-compliance*"],
+        "mappings": {
+          "properties": {
+            "@timestamp": { "type": "date" },
+            "host": { "type": "keyword" },
+            "framework": { "type": "keyword" },
+            "check_name": { "type": "keyword" },
+            "status": { "type": "keyword" },
+            "output": { "type": "text" }
+          }
+        }
+      },
+      "risk_scores": {
+        "index_patterns": ["security-risk-scores*"],
+        "mappings": {
+          "properties": {
+            "@timestamp": { "type": "date" },
+            "asset": { "type": "keyword" },
+            "score": { "type": "float" },
+            "risk_level": { "type": "keyword" },
+            "anomaly_score": { "type": "float" },
+            "vulnerability_score": { "type": "float" },
+            "compliance_score": { "type": "float" }
+          }
+        }
+      }
+    }
+  },
+  "model": {
+    "contamination": 0.05,
+    "algorithms": ["isolation_forest", "local_outlier_factor"]
+  },
+  "local_files": [
+    {
+      "path": "/var/log/auth.log",
+      "type": "auth"
+    },
+    {
+      "path": "/var/log/syslog",
+      "type": "syslog"
+    }
+  ],
+  "ssh_remote": [
+    {
+      "host": "192.168.43.187",
+      "port": 22,
+      "username": "ubuntu",
+      "password": "0000",
+      "log_paths": ["/var/log/auth.log", "/var/log/syslog"],
+      "type": "auth"
+    },
+    {
+      "host": "192.168.43.146",
+      "port": 22,
+      "username": "ubuntu",
+      "password": "0000",
+      "log_paths": ["/var/log/auth.log", "/var/log/syslog"],
+      "type": "auth"
+    }
+  ],
+  "workers": {
+    "worker1": {
+      "host": "192.168.43.187",
+      "port": 22,
+      "username": "ubuntu",
+      "password": "0000"
+    },
+    "worker2": {
+      "host": "192.168.43.146",
+      "port": 22,
+      "username": "ubuntu",
+      "password": "0000"
+    }
+  },
+  "data": {
+    "training_data_path": "data/threat_training.json"
+  }
+}

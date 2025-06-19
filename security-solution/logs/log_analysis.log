@@ -1,0 +1,17 @@
+2025-05-23 11:42:27,875 - __main__ - INFO - Loading logs from filebeat-* for the last 1d
+2025-05-23 11:42:27,985 - elastic_transport.transport - INFO - POST http://localhost:9200/filebeat-*/_search [status:200 duration:0.047s]
+2025-05-23 11:42:28,221 - __main__ - INFO - Loaded 10000 logs from Elasticsearch
+2025-05-23 11:42:28,298 - __main__ - INFO - Extracting patterns from logs
+2025-05-23 11:42:28,298 - __main__ - INFO - Extracting pattern: ssh_login_failure
+2025-05-23 11:42:28,305 - __main__ - INFO - No matches found for pattern ssh_login_failure
+2025-05-23 11:42:28,305 - __main__ - INFO - Extracting pattern: sudo_command
+2025-05-23 11:42:28,315 - __main__ - INFO - Found 14 matches for pattern sudo_command
+2025-05-23 11:42:28,315 - __main__ - INFO - Clustering log messages
+2025-05-23 11:42:32,238 - __main__ - INFO - Found 350 log clusters
+2025-05-23 11:42:32,239 - __main__ - INFO - Detecting anomalies in log frequency
+2025-05-23 11:42:32,246 - __main__ - INFO - Detected 0 time windows with anomalous log frequencies
+2025-05-23 11:42:32,247 - __main__ - INFO - Analyzing authentication logs
+2025-05-23 11:42:32,247 - __main__ - WARNING - No authentication logs found
+2025-05-23 11:42:32,252 - __main__ - INFO - Analysis results saved to results/log_analysis.json
+2025-05-23 11:42:32,331 - elastic_transport.transport - INFO - POST http://localhost:9200/security-log-analysis/_doc [status:400 duration:0.079s]
+2025-05-23 11:42:32,331 - __main__ - ERROR - Error indexing analysis results: BadRequestError(400, 'document_parsing_exception', '[1:74] failed to parse: field name cannot be an empty string')

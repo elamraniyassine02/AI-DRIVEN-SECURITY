@@ -1,0 +1,2066 @@
+2025-05-23 11:13:49,458 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 11:13:49,458 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:13:49,459 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:13:49,555 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.096s]
+2025-05-23 11:13:49,904 - __main__ - INFO - Loaded 5935 records from Elasticsearch
+2025-05-23 11:13:49,962 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:13:50,064 - __main__ - INFO - Detected 294 anomalies
+2025-05-23 11:13:50,075 - __main__ - INFO - Indexing 294 anomalies to security-anomalies
+2025-05-23 11:13:50,104 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 11:13:50,105 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:13:50,105 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:13:50,245 - __main__ - INFO - Detected 296 anomalies
+2025-05-23 11:13:50,245 - __main__ - INFO - Indexing 296 anomalies to security-anomalies
+2025-05-23 11:13:50,272 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 11:13:50,273 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:13:50,273 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:18:50,373 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:18:50,373 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:18:50,564 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.190s]
+2025-05-23 11:18:51,025 - __main__ - INFO - Loaded 6058 records from Elasticsearch
+2025-05-23 11:18:51,124 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:18:51,245 - __main__ - INFO - Detected 302 anomalies
+2025-05-23 11:18:51,258 - __main__ - INFO - Indexing 302 anomalies to security-anomalies
+2025-05-23 11:18:51,299 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-23 11:18:51,300 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:18:51,301 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:18:51,470 - __main__ - INFO - Detected 302 anomalies
+2025-05-23 11:18:51,470 - __main__ - INFO - Indexing 302 anomalies to security-anomalies
+2025-05-23 11:18:51,506 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.014s]
+2025-05-23 11:18:51,507 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:18:51,508 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:23:51,609 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:23:51,609 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:23:51,727 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.118s]
+2025-05-23 11:23:52,016 - __main__ - INFO - Loaded 6065 records from Elasticsearch
+2025-05-23 11:23:52,078 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:23:52,175 - __main__ - INFO - Detected 304 anomalies
+2025-05-23 11:23:52,185 - __main__ - INFO - Indexing 304 anomalies to security-anomalies
+2025-05-23 11:23:52,213 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:23:52,213 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:23:52,214 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:23:52,359 - __main__ - INFO - Detected 304 anomalies
+2025-05-23 11:23:52,359 - __main__ - INFO - Indexing 304 anomalies to security-anomalies
+2025-05-23 11:23:52,386 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:23:52,387 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:23:52,387 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:28:52,483 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:28:52,483 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:28:52,592 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.108s]
+2025-05-23 11:28:52,896 - __main__ - INFO - Loaded 6079 records from Elasticsearch
+2025-05-23 11:28:52,965 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:28:53,112 - __main__ - INFO - Detected 303 anomalies
+2025-05-23 11:28:53,124 - __main__ - INFO - Indexing 303 anomalies to security-anomalies
+2025-05-23 11:28:53,155 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 11:28:53,156 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:28:53,156 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:28:53,319 - __main__ - INFO - Detected 303 anomalies
+2025-05-23 11:28:53,320 - __main__ - INFO - Indexing 303 anomalies to security-anomalies
+2025-05-23 11:28:53,350 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-05-23 11:28:53,351 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:28:53,351 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:33:53,445 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:33:53,445 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:33:53,557 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.112s]
+2025-05-23 11:33:53,909 - __main__ - INFO - Loaded 6096 records from Elasticsearch
+2025-05-23 11:33:53,978 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:33:54,086 - __main__ - INFO - Detected 305 anomalies
+2025-05-23 11:33:54,097 - __main__ - INFO - Indexing 305 anomalies to security-anomalies
+2025-05-23 11:33:54,137 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-23 11:33:54,138 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:33:54,138 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:33:54,287 - __main__ - INFO - Detected 304 anomalies
+2025-05-23 11:33:54,287 - __main__ - INFO - Indexing 304 anomalies to security-anomalies
+2025-05-23 11:33:54,313 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:33:54,314 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:33:54,314 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:38:54,404 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:38:54,405 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:38:54,541 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.135s]
+2025-05-23 11:38:54,857 - __main__ - INFO - Loaded 6139 records from Elasticsearch
+2025-05-23 11:38:54,932 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:38:55,057 - __main__ - INFO - Detected 307 anomalies
+2025-05-23 11:38:55,069 - __main__ - INFO - Indexing 307 anomalies to security-anomalies
+2025-05-23 11:38:55,100 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 11:38:55,101 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:38:55,102 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:38:55,264 - __main__ - INFO - Detected 307 anomalies
+2025-05-23 11:38:55,264 - __main__ - INFO - Indexing 307 anomalies to security-anomalies
+2025-05-23 11:38:55,293 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:38:55,294 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:38:55,294 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:43:55,393 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:43:55,393 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:43:55,521 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.128s]
+2025-05-23 11:43:55,852 - __main__ - INFO - Loaded 6151 records from Elasticsearch
+2025-05-23 11:43:55,925 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:43:56,041 - __main__ - INFO - Detected 307 anomalies
+2025-05-23 11:43:56,054 - __main__ - INFO - Indexing 307 anomalies to security-anomalies
+2025-05-23 11:43:56,095 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.017s]
+2025-05-23 11:43:56,095 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:43:56,096 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:43:56,256 - __main__ - INFO - Detected 307 anomalies
+2025-05-23 11:43:56,256 - __main__ - INFO - Indexing 307 anomalies to security-anomalies
+2025-05-23 11:43:56,285 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:43:56,286 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:43:56,286 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:48:56,384 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:48:56,384 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:48:56,491 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.107s]
+2025-05-23 11:48:57,058 - __main__ - INFO - Loaded 6188 records from Elasticsearch
+2025-05-23 11:48:57,129 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:48:57,230 - __main__ - INFO - Detected 310 anomalies
+2025-05-23 11:48:57,240 - __main__ - INFO - Indexing 310 anomalies to security-anomalies
+2025-05-23 11:48:57,267 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:48:57,268 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:48:57,268 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:48:57,419 - __main__ - INFO - Detected 308 anomalies
+2025-05-23 11:48:57,419 - __main__ - INFO - Indexing 308 anomalies to security-anomalies
+2025-05-23 11:48:57,446 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:48:57,447 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:48:57,447 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 11:53:57,547 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 11:53:57,547 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 11:53:57,639 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.092s]
+2025-05-23 11:53:57,916 - __main__ - INFO - Loaded 6184 records from Elasticsearch
+2025-05-23 11:53:57,988 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 11:53:58,090 - __main__ - INFO - Detected 307 anomalies
+2025-05-23 11:53:58,101 - __main__ - INFO - Indexing 307 anomalies to security-anomalies
+2025-05-23 11:53:58,130 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:53:58,131 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:53:58,131 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 11:53:58,287 - __main__ - INFO - Detected 309 anomalies
+2025-05-23 11:53:58,287 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-05-23 11:53:58,313 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 11:53:58,314 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 11:53:58,314 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 12:00:12,278 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 12:00:12,278 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 12:00:12,422 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.142s]
+2025-05-23 12:00:12,817 - __main__ - INFO - Loaded 6055 records from Elasticsearch
+2025-05-23 12:00:12,892 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 12:00:12,992 - __main__ - INFO - Detected 296 anomalies
+2025-05-23 12:00:13,003 - __main__ - INFO - Indexing 296 anomalies to security-anomalies
+2025-05-23 12:00:13,032 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-05-23 12:00:13,033 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 12:00:13,033 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 12:00:13,187 - __main__ - INFO - Detected 303 anomalies
+2025-05-23 12:00:13,188 - __main__ - INFO - Indexing 303 anomalies to security-anomalies
+2025-05-23 12:00:13,215 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 12:00:13,215 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 12:00:13,216 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 12:05:13,292 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 12:05:13,292 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 12:05:13,456 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.163s]
+2025-05-23 12:05:13,756 - __main__ - INFO - Loaded 6133 records from Elasticsearch
+2025-05-23 12:05:13,832 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 12:05:13,939 - __main__ - INFO - Detected 301 anomalies
+2025-05-23 12:05:13,952 - __main__ - INFO - Indexing 301 anomalies to security-anomalies
+2025-05-23 12:05:13,983 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 12:05:13,984 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 12:05:13,984 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 12:05:14,140 - __main__ - INFO - Detected 307 anomalies
+2025-05-23 12:05:14,140 - __main__ - INFO - Indexing 307 anomalies to security-anomalies
+2025-05-23 12:05:14,171 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 12:05:14,172 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 12:05:14,172 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 12:10:14,271 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 12:10:14,271 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 12:10:14,371 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.100s]
+2025-05-23 12:10:14,708 - __main__ - INFO - Loaded 6162 records from Elasticsearch
+2025-05-23 12:10:14,786 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 12:10:14,886 - __main__ - INFO - Detected 309 anomalies
+2025-05-23 12:10:14,897 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-05-23 12:10:14,924 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 12:10:14,925 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 12:10:14,926 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 12:10:15,080 - __main__ - INFO - Detected 309 anomalies
+2025-05-23 12:10:15,080 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-05-23 12:10:15,108 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 12:10:15,109 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 12:10:15,109 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:04:01,518 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:04:01,524 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:04:01,679 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.146s]
+2025-05-23 14:04:01,725 - __main__ - INFO - Loaded 640 records from Elasticsearch
+2025-05-23 14:04:01,899 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:04:02,060 - __main__ - INFO - Detected 32 anomalies
+2025-05-23 14:04:02,075 - __main__ - INFO - Indexing 32 anomalies to security-anomalies
+2025-05-23 14:04:02,108 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.025s]
+2025-05-23 14:04:02,108 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:04:02,109 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:04:02,119 - __main__ - INFO - Detected 32 anomalies
+2025-05-23 14:04:02,120 - __main__ - INFO - Indexing 32 anomalies to security-anomalies
+2025-05-23 14:04:02,144 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.018s]
+2025-05-23 14:04:02,144 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:04:02,144 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:09:02,243 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:09:02,243 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:09:02,292 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.049s]
+2025-05-23 14:09:02,330 - __main__ - INFO - Loaded 1143 records from Elasticsearch
+2025-05-23 14:09:02,347 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:09:02,433 - __main__ - INFO - Detected 58 anomalies
+2025-05-23 14:09:02,438 - __main__ - INFO - Indexing 58 anomalies to security-anomalies
+2025-05-23 14:09:02,453 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-23 14:09:02,453 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:09:02,453 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:09:02,463 - __main__ - INFO - Detected 58 anomalies
+2025-05-23 14:09:02,464 - __main__ - INFO - Indexing 58 anomalies to security-anomalies
+2025-05-23 14:09:02,478 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-23 14:09:02,478 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:09:02,478 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:14:02,579 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:14:02,580 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:14:02,637 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.057s]
+2025-05-23 14:14:03,345 - __main__ - INFO - Loaded 1653 records from Elasticsearch
+2025-05-23 14:14:03,368 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:14:03,450 - __main__ - INFO - Detected 82 anomalies
+2025-05-23 14:14:03,454 - __main__ - INFO - Indexing 82 anomalies to security-anomalies
+2025-05-23 14:14:03,468 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 14:14:03,468 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:14:03,469 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:14:03,486 - __main__ - INFO - Detected 82 anomalies
+2025-05-23 14:14:03,486 - __main__ - INFO - Indexing 82 anomalies to security-anomalies
+2025-05-23 14:14:03,499 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 14:14:03,499 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:14:03,499 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:19:03,593 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:19:03,593 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:19:03,620 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.027s]
+2025-05-23 14:19:03,714 - __main__ - INFO - Loaded 2169 records from Elasticsearch
+2025-05-23 14:19:03,738 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:19:03,819 - __main__ - INFO - Detected 107 anomalies
+2025-05-23 14:19:03,824 - __main__ - INFO - Indexing 107 anomalies to security-anomalies
+2025-05-23 14:19:03,837 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 14:19:03,837 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:19:03,838 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:19:03,862 - __main__ - INFO - Detected 108 anomalies
+2025-05-23 14:19:03,862 - __main__ - INFO - Indexing 108 anomalies to security-anomalies
+2025-05-23 14:19:03,876 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 14:19:03,876 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:19:03,876 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:23:10,702 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:23:10,703 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:23:10,757 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.054s]
+2025-05-23 14:23:10,931 - __main__ - INFO - Loaded 2683 records from Elasticsearch
+2025-05-23 14:23:10,963 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:23:11,053 - __main__ - INFO - Detected 135 anomalies
+2025-05-23 14:23:11,060 - __main__ - INFO - Indexing 135 anomalies to security-anomalies
+2025-05-23 14:23:11,078 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-05-23 14:23:11,078 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:23:11,078 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:23:11,114 - __main__ - INFO - Detected 135 anomalies
+2025-05-23 14:23:11,114 - __main__ - INFO - Indexing 135 anomalies to security-anomalies
+2025-05-23 14:23:11,130 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 14:23:11,131 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:23:11,131 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:28:11,232 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:28:11,232 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:28:11,295 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.062s]
+2025-05-23 14:28:11,433 - __main__ - INFO - Loaded 3191 records from Elasticsearch
+2025-05-23 14:28:11,470 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:28:11,563 - __main__ - INFO - Detected 159 anomalies
+2025-05-23 14:28:11,570 - __main__ - INFO - Indexing 159 anomalies to security-anomalies
+2025-05-23 14:28:11,586 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 14:28:11,587 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:28:11,587 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:28:11,631 - __main__ - INFO - Detected 159 anomalies
+2025-05-23 14:28:11,631 - __main__ - INFO - Indexing 159 anomalies to security-anomalies
+2025-05-23 14:28:11,647 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 14:28:11,648 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:28:11,648 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:33:11,748 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:33:11,749 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:33:11,818 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.069s]
+2025-05-23 14:33:11,975 - __main__ - INFO - Loaded 3709 records from Elasticsearch
+2025-05-23 14:33:12,102 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:33:12,205 - __main__ - INFO - Detected 186 anomalies
+2025-05-23 14:33:12,213 - __main__ - INFO - Indexing 186 anomalies to security-anomalies
+2025-05-23 14:33:12,233 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 14:33:12,233 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:33:12,233 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:33:12,297 - __main__ - INFO - Detected 186 anomalies
+2025-05-23 14:33:12,297 - __main__ - INFO - Indexing 186 anomalies to security-anomalies
+2025-05-23 14:33:12,321 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-23 14:33:12,322 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:33:12,322 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:38:12,414 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 14:38:12,415 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 14:38:12,457 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.042s]
+2025-05-23 14:38:12,616 - __main__ - INFO - Loaded 4226 records from Elasticsearch
+2025-05-23 14:38:12,664 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 14:38:12,755 - __main__ - INFO - Detected 212 anomalies
+2025-05-23 14:38:12,764 - __main__ - INFO - Indexing 212 anomalies to security-anomalies
+2025-05-23 14:38:12,783 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 14:38:12,784 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:38:12,784 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 14:38:12,864 - __main__ - INFO - Detected 212 anomalies
+2025-05-23 14:38:12,864 - __main__ - INFO - Indexing 212 anomalies to security-anomalies
+2025-05-23 14:38:12,885 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 14:38:12,885 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 14:38:12,885 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 14:40:27,715 - __main__ - INFO - Anomaly detection service shutting down
+2025-05-23 17:11:02,694 - __main__ - ERROR - Error running anomaly detection: [Errno 2] No such file or directory: 'config/server_config.json'
+2025-05-23 17:12:04,499 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 17:12:04,499 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:12:04,499 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:12:04,508 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.008s]
+2025-05-23 17:12:04,518 - __main__ - INFO - Loaded 365 records from Elasticsearch
+2025-05-23 17:12:04,538 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 17:12:04,619 - __main__ - INFO - Detected 18 anomalies
+2025-05-23 17:12:04,622 - __main__ - INFO - Indexing 18 anomalies to security-anomalies
+2025-05-23 17:12:04,627 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.004s]
+2025-05-23 17:12:04,628 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 17:12:04,628 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 17:12:04,631 - __main__ - INFO - Detected 19 anomalies
+2025-05-23 17:12:04,632 - __main__ - INFO - Indexing 19 anomalies to security-anomalies
+2025-05-23 17:12:04,637 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.004s]
+2025-05-23 17:12:04,638 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 17:12:04,638 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:12:44,530 - __main__ - INFO - Anomaly detection service shutting down
+2025-05-23 17:12:54,022 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-05-23 17:12:54,023 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:12:54,023 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:12:54,031 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.008s]
+2025-05-23 17:12:54,041 - __main__ - INFO - Loaded 267 records from Elasticsearch
+2025-05-23 17:12:54,048 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 17:12:54,127 - __main__ - INFO - Detected 14 anomalies
+2025-05-23 17:12:54,130 - __main__ - INFO - Indexing 14 anomalies to security-anomalies
+2025-05-23 17:12:54,135 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.004s]
+2025-05-23 17:12:54,135 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 17:12:54,135 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 17:12:54,139 - __main__ - INFO - Detected 14 anomalies
+2025-05-23 17:12:54,139 - __main__ - INFO - Indexing 14 anomalies to security-anomalies
+2025-05-23 17:12:54,144 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.003s]
+2025-05-23 17:12:54,144 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 17:12:54,144 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:17:54,245 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:17:54,245 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:17:54,247 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.002s]
+2025-05-23 17:17:54,248 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:17:54,248 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:17:54,248 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:22:54,332 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:22:54,332 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:22:54,335 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.002s]
+2025-05-23 17:22:54,335 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:22:54,335 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:22:54,335 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:27:54,433 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:27:54,433 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:27:54,437 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 17:27:54,437 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:27:54,437 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:27:54,437 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:32:54,523 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:32:54,523 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:32:54,526 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.002s]
+2025-05-23 17:32:54,526 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:32:54,526 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:32:54,526 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:37:54,620 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:37:54,620 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:37:54,623 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 17:37:54,623 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:37:54,624 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:37:54,624 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:42:54,723 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:42:54,723 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:42:54,726 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 17:42:54,727 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:42:54,727 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:42:54,727 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:47:54,827 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:47:54,827 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:47:54,831 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 17:47:54,831 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:47:54,831 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:47:54,831 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:52:54,928 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:52:54,928 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:52:54,932 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 17:52:54,932 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:52:54,933 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:52:54,933 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 17:57:54,968 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 17:57:54,968 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 17:57:54,970 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.002s]
+2025-05-23 17:57:54,970 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 17:57:54,970 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 17:57:54,970 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:02:55,071 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:02:55,071 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:02:55,074 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.002s]
+2025-05-23 18:02:55,074 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 18:02:55,074 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 18:02:55,074 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:07:55,169 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:07:55,170 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:07:55,173 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 18:07:55,174 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 18:07:55,174 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 18:07:55,174 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:12:55,270 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:12:55,271 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:12:55,274 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 18:12:55,275 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 18:12:55,275 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 18:12:55,275 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:17:55,375 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:17:55,375 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:17:55,378 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.002s]
+2025-05-23 18:17:55,378 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 18:17:55,378 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 18:17:55,378 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:22:55,469 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:22:55,470 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:22:55,473 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 18:22:55,474 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 18:22:55,474 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 18:22:55,474 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:27:55,560 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:27:55,561 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:27:55,564 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 18:27:55,564 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 18:27:55,564 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 18:27:55,564 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:32:55,656 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:32:55,656 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:32:55,660 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-23 18:32:55,660 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-23 18:32:55,660 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-23 18:32:55,660 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:37:55,735 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:37:55,746 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:37:55,754 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.007s]
+2025-05-23 18:37:55,766 - __main__ - INFO - Loaded 226 records from Elasticsearch
+2025-05-23 18:37:55,777 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 18:37:55,890 - __main__ - INFO - Detected 12 anomalies
+2025-05-23 18:37:55,894 - __main__ - INFO - Indexing 12 anomalies to security-anomalies
+2025-05-23 18:37:55,902 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.005s]
+2025-05-23 18:37:55,902 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:37:55,902 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 18:37:55,908 - __main__ - INFO - Detected 12 anomalies
+2025-05-23 18:37:55,909 - __main__ - INFO - Indexing 12 anomalies to security-anomalies
+2025-05-23 18:37:55,920 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 18:37:55,920 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:37:55,920 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:42:56,011 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:42:56,012 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:42:56,022 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.010s]
+2025-05-23 18:42:56,927 - __main__ - INFO - Loaded 700 records from Elasticsearch
+2025-05-23 18:42:56,935 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 18:42:57,030 - __main__ - INFO - Detected 34 anomalies
+2025-05-23 18:42:57,038 - __main__ - INFO - Indexing 34 anomalies to security-anomalies
+2025-05-23 18:42:57,048 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.005s]
+2025-05-23 18:42:57,048 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:42:57,048 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 18:42:57,055 - __main__ - INFO - Detected 35 anomalies
+2025-05-23 18:42:57,056 - __main__ - INFO - Indexing 35 anomalies to security-anomalies
+2025-05-23 18:42:57,062 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.004s]
+2025-05-23 18:42:57,063 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:42:57,063 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:51:53,962 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:51:53,963 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:51:53,979 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.016s]
+2025-05-23 18:51:54,014 - __main__ - INFO - Loaded 999 records from Elasticsearch
+2025-05-23 18:51:54,030 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 18:51:54,146 - __main__ - INFO - Detected 50 anomalies
+2025-05-23 18:51:54,151 - __main__ - INFO - Indexing 50 anomalies to security-anomalies
+2025-05-23 18:51:54,161 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.005s]
+2025-05-23 18:51:54,162 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:51:54,162 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 18:51:54,174 - __main__ - INFO - Detected 50 anomalies
+2025-05-23 18:51:54,174 - __main__ - INFO - Indexing 50 anomalies to security-anomalies
+2025-05-23 18:51:54,185 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.005s]
+2025-05-23 18:51:54,186 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:51:54,186 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 18:56:54,287 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 18:56:54,290 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 18:56:54,313 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.023s]
+2025-05-23 18:56:54,471 - __main__ - INFO - Loaded 1466 records from Elasticsearch
+2025-05-23 18:56:54,497 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 18:56:54,645 - __main__ - INFO - Detected 74 anomalies
+2025-05-23 18:56:54,654 - __main__ - INFO - Indexing 74 anomalies to security-anomalies
+2025-05-23 18:56:54,669 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 18:56:54,669 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:56:54,669 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 18:56:54,689 - __main__ - INFO - Detected 74 anomalies
+2025-05-23 18:56:54,689 - __main__ - INFO - Indexing 74 anomalies to security-anomalies
+2025-05-23 18:56:54,704 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 18:56:54,705 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 18:56:54,705 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:01:54,806 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:01:54,808 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:01:54,833 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.025s]
+2025-05-23 19:01:54,964 - __main__ - INFO - Loaded 1943 records from Elasticsearch
+2025-05-23 19:01:54,990 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 19:01:55,114 - __main__ - INFO - Detected 98 anomalies
+2025-05-23 19:01:55,121 - __main__ - INFO - Indexing 98 anomalies to security-anomalies
+2025-05-23 19:01:55,137 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 19:01:55,137 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:01:55,138 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 19:01:55,169 - __main__ - INFO - Detected 98 anomalies
+2025-05-23 19:01:55,169 - __main__ - INFO - Indexing 98 anomalies to security-anomalies
+2025-05-23 19:01:55,185 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.004s]
+2025-05-23 19:01:55,185 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:01:55,186 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:07:12,109 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:07:12,162 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:07:12,613 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.330s]
+2025-05-23 19:07:15,249 - __main__ - INFO - Loaded 2456 records from Elasticsearch
+2025-05-23 19:07:15,303 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 19:07:15,456 - __main__ - INFO - Detected 123 anomalies
+2025-05-23 19:07:15,465 - __main__ - INFO - Indexing 123 anomalies to security-anomalies
+2025-05-23 19:07:15,512 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.031s]
+2025-05-23 19:07:15,512 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:07:15,512 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 19:07:15,588 - __main__ - INFO - Detected 123 anomalies
+2025-05-23 19:07:15,588 - __main__ - INFO - Indexing 123 anomalies to security-anomalies
+2025-05-23 19:07:15,645 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.031s]
+2025-05-23 19:07:15,647 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:07:15,649 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:14:58,450 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:14:58,452 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:14:58,535 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.082s]
+2025-05-23 19:14:58,920 - __main__ - INFO - Loaded 3183 records from Elasticsearch
+2025-05-23 19:14:58,971 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 19:14:59,108 - __main__ - INFO - Detected 159 anomalies
+2025-05-23 19:14:59,120 - __main__ - INFO - Indexing 159 anomalies to security-anomalies
+2025-05-23 19:14:59,148 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-23 19:14:59,148 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:14:59,148 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 19:14:59,203 - __main__ - INFO - Detected 159 anomalies
+2025-05-23 19:14:59,203 - __main__ - INFO - Indexing 159 anomalies to security-anomalies
+2025-05-23 19:14:59,231 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.013s]
+2025-05-23 19:14:59,232 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:14:59,232 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:19:59,368 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:19:59,413 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:19:59,772 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.277s]
+2025-05-23 19:20:03,110 - __main__ - INFO - Loaded 3647 records from Elasticsearch
+2025-05-23 19:20:03,173 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 19:20:03,322 - __main__ - INFO - Detected 182 anomalies
+2025-05-23 19:20:03,332 - __main__ - INFO - Indexing 182 anomalies to security-anomalies
+2025-05-23 19:20:03,361 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-23 19:20:03,362 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:20:03,362 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 19:20:03,434 - __main__ - INFO - Detected 182 anomalies
+2025-05-23 19:20:03,434 - __main__ - INFO - Indexing 182 anomalies to security-anomalies
+2025-05-23 19:20:03,463 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-23 19:20:03,464 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:20:03,464 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:25:03,555 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:25:03,571 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:25:03,869 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.243s]
+2025-05-23 19:25:05,202 - __main__ - INFO - Loaded 4142 records from Elasticsearch
+2025-05-23 19:25:05,295 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 19:25:05,447 - __main__ - INFO - Detected 208 anomalies
+2025-05-23 19:25:05,459 - __main__ - INFO - Indexing 208 anomalies to security-anomalies
+2025-05-23 19:25:05,497 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.014s]
+2025-05-23 19:25:05,498 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:25:05,499 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 19:25:05,612 - __main__ - INFO - Detected 208 anomalies
+2025-05-23 19:25:05,613 - __main__ - INFO - Indexing 208 anomalies to security-anomalies
+2025-05-23 19:25:05,651 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.014s]
+2025-05-23 19:25:05,652 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:25:05,653 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:30:05,633 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:30:05,668 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:30:06,413 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.551s]
+2025-05-23 19:30:08,680 - __main__ - INFO - Loaded 4644 records from Elasticsearch
+2025-05-23 19:30:08,777 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 19:30:08,978 - __main__ - INFO - Detected 233 anomalies
+2025-05-23 19:30:08,999 - __main__ - INFO - Indexing 233 anomalies to security-anomalies
+2025-05-23 19:30:09,046 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.013s]
+2025-05-23 19:30:09,047 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:30:09,047 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 19:30:09,205 - __main__ - INFO - Detected 233 anomalies
+2025-05-23 19:30:09,205 - __main__ - INFO - Indexing 233 anomalies to security-anomalies
+2025-05-23 19:30:09,247 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.014s]
+2025-05-23 19:30:09,248 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 19:30:09,248 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:35:09,324 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:35:09,333 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:35:09,368 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.019s]
+2025-05-23 19:35:09,371 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout
+2025-05-23 19:35:09,372 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b0f10>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b0f10>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:35:09,410 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.002s]
+2025-05-23 19:35:09,411 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout
+2025-05-23 19:35:09,411 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b38b0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b38b0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:35:09,413 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.002s]
+2025-05-23 19:35:09,413 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout
+2025-05-23 19:35:09,413 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b2d10>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b2d10>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:35:09,416 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:35:09,416 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout
+2025-05-23 19:35:09,416 - __main__ - ERROR - Error loading data from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b0f10>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:35:09,471 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:40:09,558 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:40:09,559 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:40:09,559 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:40:09,559 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:40:09,559 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 5 times in a row, putting on 16 second timeout
+2025-05-23 19:40:09,559 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b2f80>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b2f80>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:40:09,560 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:40:09,561 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:40:09,561 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 6 times in a row, putting on 30 second timeout
+2025-05-23 19:40:09,561 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b3040>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b3040>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:40:09,561 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:40:09,562 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:40:09,562 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 7 times in a row, putting on 30 second timeout
+2025-05-23 19:40:09,562 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f6082a28580>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f6082a28580>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:40:09,562 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:40:09,563 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:40:09,564 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 8 times in a row, putting on 30 second timeout
+2025-05-23 19:40:09,564 - __main__ - ERROR - Error loading data from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b2f80>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:40:09,564 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:45:09,664 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:45:09,664 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:45:09,665 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:45:09,666 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:45:09,666 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 9 times in a row, putting on 30 second timeout
+2025-05-23 19:45:09,666 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f6082a287f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f6082a287f0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:45:09,666 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:45:09,666 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:45:09,666 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 10 times in a row, putting on 30 second timeout
+2025-05-23 19:45:09,666 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f6082a28190>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f6082a28190>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:45:09,667 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:45:09,667 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:45:09,667 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 11 times in a row, putting on 30 second timeout
+2025-05-23 19:45:09,667 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f6082a283a0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f6082a283a0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:45:09,671 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:45:09,671 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:45:09,671 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 12 times in a row, putting on 30 second timeout
+2025-05-23 19:45:09,671 - __main__ - ERROR - Error loading data from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f6082a287f0>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:45:09,671 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:50:09,765 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:50:09,766 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:50:09,766 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:50:09,766 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:50:09,766 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 13 times in a row, putting on 30 second timeout
+2025-05-23 19:50:09,767 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b3220>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b3220>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:50:09,768 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:50:09,769 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:50:09,769 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 14 times in a row, putting on 30 second timeout
+2025-05-23 19:50:09,769 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b0e80>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b0e80>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:50:09,769 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:50:09,769 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:50:09,769 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 15 times in a row, putting on 30 second timeout
+2025-05-23 19:50:09,769 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b2ec0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b2ec0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:50:09,770 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:50:09,770 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:50:09,770 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 16 times in a row, putting on 30 second timeout
+2025-05-23 19:50:09,770 - __main__ - ERROR - Error loading data from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b3220>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:50:09,770 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 19:55:09,871 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 19:55:09,872 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 19:55:09,872 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:55:09,873 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:55:09,873 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 17 times in a row, putting on 30 second timeout
+2025-05-23 19:55:09,873 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b3c70>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b3c70>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:55:09,873 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:55:09,873 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.000s]
+2025-05-23 19:55:09,873 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 18 times in a row, putting on 30 second timeout
+2025-05-23 19:55:09,873 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f60829b0df0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b0df0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:55:09,874 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:55:09,875 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:55:09,875 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 19 times in a row, putting on 30 second timeout
+2025-05-23 19:55:09,875 - elastic_transport.transport - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f6082a28df0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+  File "/home/ubuntu/security-venv/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f6082a28df0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2025-05-23 19:55:09,876 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 19:55:09,877 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:N/A duration:0.001s]
+2025-05-23 19:55:09,877 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 20 times in a row, putting on 30 second timeout
+2025-05-23 19:55:09,877 - __main__ - ERROR - Error loading data from Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f60829b3c70>: Failed to establish a new connection: [Errno 111] Connection refused))
+2025-05-23 19:55:09,877 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 20:00:09,977 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 20:00:09,977 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 20:00:09,979 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 20:00:10,237 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.257s]
+2025-05-23 20:00:11,890 - elastic_transport.node_pool - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has been marked alive after a successful request
+2025-05-23 20:00:11,891 - __main__ - INFO - Loaded 5141 records from Elasticsearch
+2025-05-23 20:00:11,971 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 20:00:12,139 - __main__ - INFO - Detected 255 anomalies
+2025-05-23 20:00:12,160 - __main__ - INFO - Indexing 255 anomalies to security-anomalies
+2025-05-23 20:00:12,195 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 20:00:12,213 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.018s]
+2025-05-23 20:00:12,214 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:00:12,218 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 20:00:12,390 - __main__ - INFO - Detected 256 anomalies
+2025-05-23 20:00:12,390 - __main__ - INFO - Indexing 256 anomalies to security-anomalies
+2025-05-23 20:00:12,416 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 20:00:12,428 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-23 20:00:12,429 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:00:12,429 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 20:05:12,539 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 20:05:12,561 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 20:05:12,597 - elastic_transport.node_pool - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-05-23 20:05:12,848 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.248s]
+2025-05-23 20:05:14,291 - __main__ - INFO - Loaded 5813 records from Elasticsearch
+2025-05-23 20:05:14,370 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 20:05:14,485 - __main__ - INFO - Detected 291 anomalies
+2025-05-23 20:05:14,498 - __main__ - INFO - Indexing 291 anomalies to security-anomalies
+2025-05-23 20:05:14,532 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.013s]
+2025-05-23 20:05:14,533 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:05:14,533 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 20:05:14,669 - __main__ - INFO - Detected 291 anomalies
+2025-05-23 20:05:14,670 - __main__ - INFO - Indexing 291 anomalies to security-anomalies
+2025-05-23 20:05:14,696 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 20:05:14,697 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:05:14,697 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 20:10:14,702 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 20:10:14,703 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 20:10:14,783 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.080s]
+2025-05-23 20:10:15,062 - __main__ - INFO - Loaded 5847 records from Elasticsearch
+2025-05-23 20:10:15,128 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 20:10:15,226 - __main__ - INFO - Detected 293 anomalies
+2025-05-23 20:10:15,236 - __main__ - INFO - Indexing 293 anomalies to security-anomalies
+2025-05-23 20:10:15,262 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 20:10:15,263 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:10:15,263 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 20:10:15,401 - __main__ - INFO - Detected 293 anomalies
+2025-05-23 20:10:15,401 - __main__ - INFO - Indexing 293 anomalies to security-anomalies
+2025-05-23 20:10:15,428 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 20:10:15,429 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:10:15,429 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 20:15:15,519 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 20:15:15,519 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 20:15:15,591 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.072s]
+2025-05-23 20:15:15,902 - __main__ - INFO - Loaded 5906 records from Elasticsearch
+2025-05-23 20:15:16,066 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 20:15:16,199 - __main__ - INFO - Detected 293 anomalies
+2025-05-23 20:15:16,214 - __main__ - INFO - Indexing 293 anomalies to security-anomalies
+2025-05-23 20:15:16,254 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.015s]
+2025-05-23 20:15:16,255 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:15:16,255 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 20:15:16,426 - __main__ - INFO - Detected 296 anomalies
+2025-05-23 20:15:16,426 - __main__ - INFO - Indexing 296 anomalies to security-anomalies
+2025-05-23 20:15:16,458 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-23 20:15:16,459 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:15:16,459 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 20:20:16,537 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 20:20:16,538 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 20:20:16,660 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.122s]
+2025-05-23 20:20:16,950 - __main__ - INFO - Loaded 5949 records from Elasticsearch
+2025-05-23 20:20:17,023 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 20:20:17,128 - __main__ - INFO - Detected 298 anomalies
+2025-05-23 20:20:17,139 - __main__ - INFO - Indexing 298 anomalies to security-anomalies
+2025-05-23 20:20:17,167 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 20:20:17,168 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:20:17,168 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 20:20:17,310 - __main__ - INFO - Detected 298 anomalies
+2025-05-23 20:20:17,310 - __main__ - INFO - Indexing 298 anomalies to security-anomalies
+2025-05-23 20:20:17,336 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 20:20:17,337 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:20:17,338 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-23 20:25:17,439 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-23 20:25:17,439 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-23 20:25:17,528 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.088s]
+2025-05-23 20:25:17,862 - __main__ - INFO - Loaded 5993 records from Elasticsearch
+2025-05-23 20:25:17,931 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-05-23 20:25:18,029 - __main__ - INFO - Detected 299 anomalies
+2025-05-23 20:25:18,039 - __main__ - INFO - Indexing 299 anomalies to security-anomalies
+2025-05-23 20:25:18,066 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-05-23 20:25:18,066 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:25:18,067 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-05-23 20:25:18,205 - __main__ - INFO - Detected 297 anomalies
+2025-05-23 20:25:18,206 - __main__ - INFO - Indexing 297 anomalies to security-anomalies
+2025-05-23 20:25:18,231 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-05-23 20:25:18,232 - __main__ - INFO - Successfully indexed all anomalies
+2025-05-23 20:25:18,232 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-24 10:51:47,452 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-24 10:51:47,460 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-24 10:51:47,511 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.043s]
+2025-05-24 10:51:47,512 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-24 10:51:47,512 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-24 10:51:47,597 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-24 10:56:47,690 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-24 10:56:47,690 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-24 10:56:47,694 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.003s]
+2025-05-24 10:56:47,694 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-24 10:56:47,694 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-24 10:56:47,694 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-05-24 11:01:47,794 - __main__ - INFO - Starting anomaly detection cycle
+2025-05-24 11:01:47,807 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-05-24 11:01:47,810 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.002s]
+2025-05-24 11:01:47,810 - __main__ - INFO - Loaded 0 records from Elasticsearch
+2025-05-24 11:01:47,810 - __main__ - WARNING - No data found in metricbeat-* for the last 1h
+2025-05-24 11:01:47,811 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:01:51,922 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:01:51,923 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:01:51,992 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.068s]
+2025-06-01 10:01:52,106 - __main__ - INFO - Loaded 398 records from Elasticsearch
+2025-06-01 10:01:52,262 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:01:52,481 - __main__ - INFO - Detected 20 anomalies
+2025-06-01 10:01:52,497 - __main__ - INFO - Indexing 20 anomalies to security-anomalies
+2025-06-01 10:01:52,509 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.005s]
+2025-06-01 10:01:52,510 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:01:52,510 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:01:52,535 - __main__ - INFO - Detected 20 anomalies
+2025-06-01 10:01:52,535 - __main__ - INFO - Indexing 20 anomalies to security-anomalies
+2025-06-01 10:01:52,545 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 10:01:52,545 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:01:52,545 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:05:27,403 - __main__ - INFO - Anomaly detection service shutting down
+2025-06-01 10:06:38,431 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-06-01 10:06:38,431 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:06:38,432 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:06:38,495 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.064s]
+2025-06-01 10:06:38,584 - __main__ - INFO - Loaded 893 records from Elasticsearch
+2025-06-01 10:06:38,598 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:06:38,693 - __main__ - INFO - Detected 45 anomalies
+2025-06-01 10:06:38,697 - __main__ - INFO - Indexing 45 anomalies to security-anomalies
+2025-06-01 10:06:38,713 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.013s]
+2025-06-01 10:06:38,714 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:06:38,714 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:06:38,722 - __main__ - INFO - Detected 44 anomalies
+2025-06-01 10:06:38,723 - __main__ - INFO - Indexing 44 anomalies to security-anomalies
+2025-06-01 10:06:38,737 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-06-01 10:06:38,737 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:06:38,737 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:11:38,837 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:11:38,838 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:11:38,933 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.095s]
+2025-06-01 10:11:38,984 - __main__ - INFO - Loaded 1398 records from Elasticsearch
+2025-06-01 10:11:39,009 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:11:39,110 - __main__ - INFO - Detected 70 anomalies
+2025-06-01 10:11:39,115 - __main__ - INFO - Indexing 70 anomalies to security-anomalies
+2025-06-01 10:11:39,129 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 10:11:39,129 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:11:39,129 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:11:39,146 - __main__ - INFO - Detected 70 anomalies
+2025-06-01 10:11:39,146 - __main__ - INFO - Indexing 70 anomalies to security-anomalies
+2025-06-01 10:11:39,158 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 10:11:39,158 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:11:39,158 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:16:39,244 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:16:39,245 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:16:39,287 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.042s]
+2025-06-01 10:16:39,413 - __main__ - INFO - Loaded 1928 records from Elasticsearch
+2025-06-01 10:16:39,433 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:16:39,524 - __main__ - INFO - Detected 97 anomalies
+2025-06-01 10:16:39,530 - __main__ - INFO - Indexing 97 anomalies to security-anomalies
+2025-06-01 10:16:39,544 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 10:16:39,544 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:16:39,545 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:16:39,570 - __main__ - INFO - Detected 97 anomalies
+2025-06-01 10:16:39,571 - __main__ - INFO - Indexing 97 anomalies to security-anomalies
+2025-06-01 10:16:39,585 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 10:16:39,586 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:16:39,586 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:20:40,022 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:20:40,023 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:20:40,123 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.099s]
+2025-06-01 10:20:40,269 - __main__ - INFO - Loaded 2454 records from Elasticsearch
+2025-06-01 10:20:40,304 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:20:40,418 - __main__ - INFO - Detected 123 anomalies
+2025-06-01 10:20:40,425 - __main__ - INFO - Indexing 123 anomalies to security-anomalies
+2025-06-01 10:20:40,446 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-06-01 10:20:40,446 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:20:40,447 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:20:40,481 - __main__ - INFO - Detected 123 anomalies
+2025-06-01 10:20:40,481 - __main__ - INFO - Indexing 123 anomalies to security-anomalies
+2025-06-01 10:20:40,501 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 10:20:40,502 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:20:40,502 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:25:40,590 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:25:40,592 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:25:40,666 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.074s]
+2025-06-01 10:25:40,837 - __main__ - INFO - Loaded 2993 records from Elasticsearch
+2025-06-01 10:25:40,872 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:25:40,965 - __main__ - INFO - Detected 149 anomalies
+2025-06-01 10:25:40,972 - __main__ - INFO - Indexing 149 anomalies to security-anomalies
+2025-06-01 10:25:41,004 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.021s]
+2025-06-01 10:25:41,004 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:25:41,005 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:25:41,048 - __main__ - INFO - Detected 150 anomalies
+2025-06-01 10:25:41,048 - __main__ - INFO - Indexing 150 anomalies to security-anomalies
+2025-06-01 10:25:41,067 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 10:25:41,067 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:25:41,067 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:30:41,164 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:30:41,165 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:30:41,476 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.311s]
+2025-06-01 10:30:41,613 - __main__ - INFO - Loaded 3526 records from Elasticsearch
+2025-06-01 10:30:41,651 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:30:41,744 - __main__ - INFO - Detected 176 anomalies
+2025-06-01 10:30:41,751 - __main__ - INFO - Indexing 176 anomalies to security-anomalies
+2025-06-01 10:30:41,771 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 10:30:41,771 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:30:41,772 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:30:41,826 - __main__ - INFO - Detected 176 anomalies
+2025-06-01 10:30:41,826 - __main__ - INFO - Indexing 176 anomalies to security-anomalies
+2025-06-01 10:30:41,844 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 10:30:41,845 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:30:41,845 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:35:41,945 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:35:41,950 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:35:42,026 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.075s]
+2025-06-01 10:35:42,231 - __main__ - INFO - Loaded 4087 records from Elasticsearch
+2025-06-01 10:35:42,284 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:35:42,382 - __main__ - INFO - Detected 205 anomalies
+2025-06-01 10:35:42,391 - __main__ - INFO - Indexing 205 anomalies to security-anomalies
+2025-06-01 10:35:42,414 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 10:35:42,415 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:35:42,415 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:35:42,502 - __main__ - INFO - Detected 205 anomalies
+2025-06-01 10:35:42,502 - __main__ - INFO - Indexing 205 anomalies to security-anomalies
+2025-06-01 10:35:42,523 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 10:35:42,524 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:35:42,524 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:40:42,620 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:40:42,631 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:40:42,701 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.069s]
+2025-06-01 10:40:43,019 - __main__ - INFO - Loaded 4646 records from Elasticsearch
+2025-06-01 10:40:43,074 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:40:43,179 - __main__ - INFO - Detected 232 anomalies
+2025-06-01 10:40:43,188 - __main__ - INFO - Indexing 232 anomalies to security-anomalies
+2025-06-01 10:40:43,214 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 10:40:43,215 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:40:43,215 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:40:43,329 - __main__ - INFO - Detected 233 anomalies
+2025-06-01 10:40:43,329 - __main__ - INFO - Indexing 233 anomalies to security-anomalies
+2025-06-01 10:40:43,353 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 10:40:43,354 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:40:43,355 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:45:43,454 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:45:43,455 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:45:43,587 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.132s]
+2025-06-01 10:45:43,815 - __main__ - INFO - Loaded 5206 records from Elasticsearch
+2025-06-01 10:45:43,879 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:45:43,992 - __main__ - INFO - Detected 260 anomalies
+2025-06-01 10:45:44,003 - __main__ - INFO - Indexing 260 anomalies to security-anomalies
+2025-06-01 10:45:44,033 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-06-01 10:45:44,034 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:45:44,034 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:45:44,164 - __main__ - INFO - Detected 259 anomalies
+2025-06-01 10:45:44,164 - __main__ - INFO - Indexing 259 anomalies to security-anomalies
+2025-06-01 10:45:44,193 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 10:45:44,194 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:45:44,194 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:50:44,291 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:50:44,302 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:50:44,409 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.107s]
+2025-06-01 10:50:44,756 - __main__ - INFO - Loaded 5765 records from Elasticsearch
+2025-06-01 10:50:44,825 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:50:44,941 - __main__ - INFO - Detected 289 anomalies
+2025-06-01 10:50:44,952 - __main__ - INFO - Indexing 289 anomalies to security-anomalies
+2025-06-01 10:50:44,985 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-06-01 10:50:44,986 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:50:44,986 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:50:45,142 - __main__ - INFO - Detected 289 anomalies
+2025-06-01 10:50:45,142 - __main__ - INFO - Indexing 289 anomalies to security-anomalies
+2025-06-01 10:50:45,174 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 10:50:45,174 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:50:45,174 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 10:55:45,270 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 10:55:45,270 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 10:55:45,344 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.073s]
+2025-06-01 10:55:45,752 - __main__ - INFO - Loaded 6323 records from Elasticsearch
+2025-06-01 10:55:45,833 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 10:55:45,961 - __main__ - INFO - Detected 317 anomalies
+2025-06-01 10:55:45,973 - __main__ - INFO - Indexing 317 anomalies to security-anomalies
+2025-06-01 10:55:46,004 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 10:55:46,005 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:55:46,005 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 10:55:46,188 - __main__ - INFO - Detected 316 anomalies
+2025-06-01 10:55:46,188 - __main__ - INFO - Indexing 316 anomalies to security-anomalies
+2025-06-01 10:55:46,218 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 10:55:46,219 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 10:55:46,219 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:00:46,258 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:00:46,258 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:00:46,343 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.085s]
+2025-06-01 11:00:46,665 - __main__ - INFO - Loaded 6461 records from Elasticsearch
+2025-06-01 11:00:46,744 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:00:46,855 - __main__ - INFO - Detected 321 anomalies
+2025-06-01 11:00:46,867 - __main__ - INFO - Indexing 321 anomalies to security-anomalies
+2025-06-01 11:00:46,897 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:00:46,898 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:00:46,898 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:00:47,083 - __main__ - INFO - Detected 323 anomalies
+2025-06-01 11:00:47,084 - __main__ - INFO - Indexing 323 anomalies to security-anomalies
+2025-06-01 11:00:47,113 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:00:47,114 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:00:47,114 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:05:47,131 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:05:47,131 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:05:47,213 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.081s]
+2025-06-01 11:05:47,527 - __main__ - INFO - Loaded 6475 records from Elasticsearch
+2025-06-01 11:05:47,607 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:05:47,731 - __main__ - INFO - Detected 324 anomalies
+2025-06-01 11:05:47,742 - __main__ - INFO - Indexing 324 anomalies to security-anomalies
+2025-06-01 11:05:47,772 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:05:47,773 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:05:47,773 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:05:47,954 - __main__ - INFO - Detected 323 anomalies
+2025-06-01 11:05:47,954 - __main__ - INFO - Indexing 323 anomalies to security-anomalies
+2025-06-01 11:05:47,984 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:05:47,985 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:05:47,985 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:10:48,086 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:10:48,086 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:10:48,174 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.087s]
+2025-06-01 11:10:48,534 - __main__ - INFO - Loaded 6497 records from Elasticsearch
+2025-06-01 11:10:48,612 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:10:48,737 - __main__ - INFO - Detected 325 anomalies
+2025-06-01 11:10:48,749 - __main__ - INFO - Indexing 325 anomalies to security-anomalies
+2025-06-01 11:10:48,783 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 11:10:48,783 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:10:48,783 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:10:48,969 - __main__ - INFO - Detected 323 anomalies
+2025-06-01 11:10:48,969 - __main__ - INFO - Indexing 323 anomalies to security-anomalies
+2025-06-01 11:10:49,001 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 11:10:49,002 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:10:49,002 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:15:49,086 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:15:49,087 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:15:49,195 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.108s]
+2025-06-01 11:15:49,610 - __main__ - INFO - Loaded 6478 records from Elasticsearch
+2025-06-01 11:15:49,689 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:15:49,796 - __main__ - INFO - Detected 318 anomalies
+2025-06-01 11:15:49,807 - __main__ - INFO - Indexing 318 anomalies to security-anomalies
+2025-06-01 11:15:49,839 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:15:49,840 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:15:49,840 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:15:50,025 - __main__ - INFO - Detected 323 anomalies
+2025-06-01 11:15:50,026 - __main__ - INFO - Indexing 323 anomalies to security-anomalies
+2025-06-01 11:15:50,056 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:15:50,057 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:15:50,057 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:20:50,131 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:20:50,131 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:20:50,225 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.093s]
+2025-06-01 11:20:50,599 - __main__ - INFO - Loaded 6476 records from Elasticsearch
+2025-06-01 11:20:50,685 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:20:50,802 - __main__ - INFO - Detected 324 anomalies
+2025-06-01 11:20:50,814 - __main__ - INFO - Indexing 324 anomalies to security-anomalies
+2025-06-01 11:20:50,847 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 11:20:50,848 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:20:50,848 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:20:51,040 - __main__ - INFO - Detected 323 anomalies
+2025-06-01 11:20:51,041 - __main__ - INFO - Indexing 323 anomalies to security-anomalies
+2025-06-01 11:20:51,072 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:20:51,073 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:20:51,073 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:25:51,163 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:25:51,163 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:25:51,252 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.088s]
+2025-06-01 11:25:51,568 - __main__ - INFO - Loaded 6467 records from Elasticsearch
+2025-06-01 11:25:51,648 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:25:51,756 - __main__ - INFO - Detected 322 anomalies
+2025-06-01 11:25:51,766 - __main__ - INFO - Indexing 322 anomalies to security-anomalies
+2025-06-01 11:25:51,798 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 11:25:51,800 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:25:51,800 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:25:51,987 - __main__ - INFO - Detected 324 anomalies
+2025-06-01 11:25:51,987 - __main__ - INFO - Indexing 324 anomalies to security-anomalies
+2025-06-01 11:25:52,018 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:25:52,019 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:25:52,019 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:30:52,107 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:30:52,107 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:30:52,213 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.106s]
+2025-06-01 11:30:52,701 - __main__ - INFO - Loaded 6468 records from Elasticsearch
+2025-06-01 11:30:52,800 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:30:52,936 - __main__ - INFO - Detected 323 anomalies
+2025-06-01 11:30:52,948 - __main__ - INFO - Indexing 323 anomalies to security-anomalies
+2025-06-01 11:30:52,987 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.013s]
+2025-06-01 11:30:52,988 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:30:52,988 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:30:53,190 - __main__ - INFO - Detected 324 anomalies
+2025-06-01 11:30:53,191 - __main__ - INFO - Indexing 324 anomalies to security-anomalies
+2025-06-01 11:30:53,227 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 11:30:53,228 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:30:53,229 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:35:53,324 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:35:53,325 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:35:53,435 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.110s]
+2025-06-01 11:35:53,809 - __main__ - INFO - Loaded 6423 records from Elasticsearch
+2025-06-01 11:35:53,899 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:35:54,032 - __main__ - INFO - Detected 320 anomalies
+2025-06-01 11:35:54,045 - __main__ - INFO - Indexing 320 anomalies to security-anomalies
+2025-06-01 11:35:54,083 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-06-01 11:35:54,084 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:35:54,085 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:35:54,302 - __main__ - INFO - Detected 321 anomalies
+2025-06-01 11:35:54,303 - __main__ - INFO - Indexing 321 anomalies to security-anomalies
+2025-06-01 11:35:54,341 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 11:35:54,342 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:35:54,342 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:40:54,437 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:40:54,437 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:40:54,531 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.094s]
+2025-06-01 11:40:54,851 - __main__ - INFO - Loaded 6374 records from Elasticsearch
+2025-06-01 11:40:54,936 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:40:55,072 - __main__ - INFO - Detected 319 anomalies
+2025-06-01 11:40:55,085 - __main__ - INFO - Indexing 319 anomalies to security-anomalies
+2025-06-01 11:40:55,120 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 11:40:55,125 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:40:55,125 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:40:55,339 - __main__ - INFO - Detected 319 anomalies
+2025-06-01 11:40:55,339 - __main__ - INFO - Indexing 319 anomalies to security-anomalies
+2025-06-01 11:40:55,374 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 11:40:55,375 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:40:55,375 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:42:35,507 - __main__ - INFO - Anomaly detection service shutting down
+2025-06-01 11:44:13,537 - __main__ - INFO - Connected to Elasticsearch at ['http://localhost:9200']
+2025-06-01 11:44:13,537 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:44:13,537 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:44:13,640 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.102s]
+2025-06-01 11:44:14,031 - __main__ - INFO - Loaded 6352 records from Elasticsearch
+2025-06-01 11:44:14,096 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:44:14,211 - __main__ - INFO - Detected 312 anomalies
+2025-06-01 11:44:14,222 - __main__ - INFO - Indexing 312 anomalies to security-anomalies
+2025-06-01 11:44:14,255 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 11:44:14,256 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:44:14,256 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:44:14,445 - __main__ - INFO - Detected 317 anomalies
+2025-06-01 11:44:14,445 - __main__ - INFO - Indexing 317 anomalies to security-anomalies
+2025-06-01 11:44:14,478 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 11:44:14,478 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:44:14,479 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:49:14,587 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:49:14,599 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:49:14,851 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.233s]
+2025-06-01 11:49:15,782 - __main__ - INFO - Loaded 6302 records from Elasticsearch
+2025-06-01 11:49:15,888 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:49:16,036 - __main__ - INFO - Detected 315 anomalies
+2025-06-01 11:49:16,050 - __main__ - INFO - Indexing 315 anomalies to security-anomalies
+2025-06-01 11:49:16,104 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.024s]
+2025-06-01 11:49:16,106 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:49:16,106 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:49:16,323 - __main__ - INFO - Detected 314 anomalies
+2025-06-01 11:49:16,323 - __main__ - INFO - Indexing 314 anomalies to security-anomalies
+2025-06-01 11:49:16,376 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.018s]
+2025-06-01 11:49:16,377 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:49:16,377 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:54:16,477 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:54:16,478 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:54:16,552 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.073s]
+2025-06-01 11:54:16,955 - __main__ - INFO - Loaded 6270 records from Elasticsearch
+2025-06-01 11:54:17,026 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:54:17,151 - __main__ - INFO - Detected 314 anomalies
+2025-06-01 11:54:17,164 - __main__ - INFO - Indexing 314 anomalies to security-anomalies
+2025-06-01 11:54:17,200 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-06-01 11:54:17,201 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:54:17,201 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:54:17,392 - __main__ - INFO - Detected 309 anomalies
+2025-06-01 11:54:17,393 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-06-01 11:54:17,425 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 11:54:17,426 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:54:17,426 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 11:59:17,527 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 11:59:17,527 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 11:59:17,949 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.422s]
+2025-06-01 11:59:18,237 - __main__ - INFO - Loaded 6248 records from Elasticsearch
+2025-06-01 11:59:18,307 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 11:59:18,415 - __main__ - INFO - Detected 313 anomalies
+2025-06-01 11:59:18,426 - __main__ - INFO - Indexing 313 anomalies to security-anomalies
+2025-06-01 11:59:18,478 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.030s]
+2025-06-01 11:59:18,479 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:59:18,479 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 11:59:18,647 - __main__ - INFO - Detected 313 anomalies
+2025-06-01 11:59:18,648 - __main__ - INFO - Indexing 313 anomalies to security-anomalies
+2025-06-01 11:59:18,704 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.033s]
+2025-06-01 11:59:18,705 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 11:59:18,705 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:04:18,803 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:04:18,803 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:04:18,918 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.115s]
+2025-06-01 12:04:19,288 - __main__ - INFO - Loaded 6218 records from Elasticsearch
+2025-06-01 12:04:19,361 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:04:19,481 - __main__ - INFO - Detected 311 anomalies
+2025-06-01 12:04:19,493 - __main__ - INFO - Indexing 311 anomalies to security-anomalies
+2025-06-01 12:04:19,540 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.022s]
+2025-06-01 12:04:19,541 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:04:19,541 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:04:19,724 - __main__ - INFO - Detected 311 anomalies
+2025-06-01 12:04:19,724 - __main__ - INFO - Indexing 311 anomalies to security-anomalies
+2025-06-01 12:04:19,756 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 12:04:19,757 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:04:19,757 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:09:19,845 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:09:19,846 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:09:19,957 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.111s]
+2025-06-01 12:09:20,269 - __main__ - INFO - Loaded 6195 records from Elasticsearch
+2025-06-01 12:09:20,462 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:09:20,583 - __main__ - INFO - Detected 310 anomalies
+2025-06-01 12:09:20,615 - __main__ - INFO - Indexing 310 anomalies to security-anomalies
+2025-06-01 12:09:20,646 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 12:09:20,647 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:09:20,647 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:09:20,833 - __main__ - INFO - Detected 310 anomalies
+2025-06-01 12:09:20,833 - __main__ - INFO - Indexing 310 anomalies to security-anomalies
+2025-06-01 12:09:20,866 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 12:09:20,867 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:09:20,867 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:14:20,899 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:14:20,899 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:14:21,017 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.117s]
+2025-06-01 12:14:21,383 - __main__ - INFO - Loaded 6182 records from Elasticsearch
+2025-06-01 12:14:21,454 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:14:21,560 - __main__ - INFO - Detected 309 anomalies
+2025-06-01 12:14:21,573 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-06-01 12:14:21,602 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 12:14:21,603 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:14:21,603 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:14:21,780 - __main__ - INFO - Detected 308 anomalies
+2025-06-01 12:14:21,780 - __main__ - INFO - Indexing 308 anomalies to security-anomalies
+2025-06-01 12:14:21,809 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 12:14:21,809 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:14:21,810 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:19:21,909 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:19:21,909 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:19:21,997 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.087s]
+2025-06-01 12:19:22,322 - __main__ - INFO - Loaded 6181 records from Elasticsearch
+2025-06-01 12:19:22,393 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:19:22,495 - __main__ - INFO - Detected 309 anomalies
+2025-06-01 12:19:22,506 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-06-01 12:19:22,534 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 12:19:22,535 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:19:22,535 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:19:22,691 - __main__ - INFO - Detected 309 anomalies
+2025-06-01 12:19:22,692 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-06-01 12:19:22,719 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 12:19:22,719 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:19:22,720 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:24:22,807 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:24:22,807 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:24:22,906 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.098s]
+2025-06-01 12:24:23,278 - __main__ - INFO - Loaded 6207 records from Elasticsearch
+2025-06-01 12:24:23,352 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:24:23,461 - __main__ - INFO - Detected 309 anomalies
+2025-06-01 12:24:23,472 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-06-01 12:24:23,500 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 12:24:23,501 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:24:23,504 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:24:23,671 - __main__ - INFO - Detected 309 anomalies
+2025-06-01 12:24:23,671 - __main__ - INFO - Indexing 309 anomalies to security-anomalies
+2025-06-01 12:24:23,699 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 12:24:23,699 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:24:23,700 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:29:23,799 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:29:23,799 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:29:23,886 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.086s]
+2025-06-01 12:29:24,208 - __main__ - INFO - Loaded 6231 records from Elasticsearch
+2025-06-01 12:29:24,286 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:29:24,392 - __main__ - INFO - Detected 312 anomalies
+2025-06-01 12:29:24,403 - __main__ - INFO - Indexing 312 anomalies to security-anomalies
+2025-06-01 12:29:24,433 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-06-01 12:29:24,434 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:29:24,434 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:29:24,598 - __main__ - INFO - Detected 312 anomalies
+2025-06-01 12:29:24,598 - __main__ - INFO - Indexing 312 anomalies to security-anomalies
+2025-06-01 12:29:24,627 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 12:29:24,627 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:29:24,628 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:34:24,728 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:34:24,728 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:34:24,793 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.065s]
+2025-06-01 12:34:25,179 - __main__ - INFO - Loaded 6248 records from Elasticsearch
+2025-06-01 12:34:25,257 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:34:25,355 - __main__ - INFO - Detected 312 anomalies
+2025-06-01 12:34:25,365 - __main__ - INFO - Indexing 312 anomalies to security-anomalies
+2025-06-01 12:34:25,392 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 12:34:25,392 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:34:25,393 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:34:25,574 - __main__ - INFO - Detected 313 anomalies
+2025-06-01 12:34:25,575 - __main__ - INFO - Indexing 313 anomalies to security-anomalies
+2025-06-01 12:34:25,601 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 12:34:25,602 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:34:25,603 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:39:25,692 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:39:25,692 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:39:25,777 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.085s]
+2025-06-01 12:39:26,093 - __main__ - INFO - Loaded 6278 records from Elasticsearch
+2025-06-01 12:39:26,173 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:39:26,283 - __main__ - INFO - Detected 313 anomalies
+2025-06-01 12:39:26,294 - __main__ - INFO - Indexing 313 anomalies to security-anomalies
+2025-06-01 12:39:26,329 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-06-01 12:39:26,330 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:39:26,330 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:39:26,510 - __main__ - INFO - Detected 314 anomalies
+2025-06-01 12:39:26,510 - __main__ - INFO - Indexing 314 anomalies to security-anomalies
+2025-06-01 12:39:26,541 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 12:39:26,542 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:39:26,543 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:44:27,520 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:44:28,437 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:44:42,616 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:11.209s]
+2025-06-01 12:44:55,068 - __main__ - INFO - Loaded 6257 records from Elasticsearch
+2025-06-01 12:44:55,294 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:44:55,416 - __main__ - INFO - Detected 313 anomalies
+2025-06-01 12:44:55,429 - __main__ - INFO - Indexing 313 anomalies to security-anomalies
+2025-06-01 12:44:55,504 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.050s]
+2025-06-01 12:44:55,505 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:44:55,505 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:44:55,692 - __main__ - INFO - Detected 311 anomalies
+2025-06-01 12:44:55,692 - __main__ - INFO - Indexing 311 anomalies to security-anomalies
+2025-06-01 12:44:55,731 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.014s]
+2025-06-01 12:44:55,731 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:44:55,732 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:49:55,784 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:49:55,785 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:49:55,887 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.101s]
+2025-06-01 12:49:56,356 - __main__ - INFO - Loaded 6314 records from Elasticsearch
+2025-06-01 12:49:56,475 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:49:56,585 - __main__ - INFO - Detected 316 anomalies
+2025-06-01 12:49:56,597 - __main__ - INFO - Indexing 316 anomalies to security-anomalies
+2025-06-01 12:49:56,630 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-06-01 12:49:56,630 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:49:56,631 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:49:56,854 - __main__ - INFO - Detected 315 anomalies
+2025-06-01 12:49:56,854 - __main__ - INFO - Indexing 315 anomalies to security-anomalies
+2025-06-01 12:49:56,894 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 12:49:56,895 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:49:56,895 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:54:56,974 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:54:56,974 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:54:57,027 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.053s]
+2025-06-01 12:54:57,337 - __main__ - INFO - Loaded 5804 records from Elasticsearch
+2025-06-01 12:54:57,407 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:54:57,507 - __main__ - INFO - Detected 287 anomalies
+2025-06-01 12:54:57,517 - __main__ - INFO - Indexing 287 anomalies to security-anomalies
+2025-06-01 12:54:57,544 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 12:54:57,545 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:54:57,545 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:54:57,694 - __main__ - INFO - Detected 288 anomalies
+2025-06-01 12:54:57,694 - __main__ - INFO - Indexing 288 anomalies to security-anomalies
+2025-06-01 12:54:57,721 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 12:54:57,721 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:54:57,722 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 12:59:57,775 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 12:59:57,776 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 12:59:57,826 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.050s]
+2025-06-01 12:59:58,140 - __main__ - INFO - Loaded 5299 records from Elasticsearch
+2025-06-01 12:59:58,211 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 12:59:58,312 - __main__ - INFO - Detected 262 anomalies
+2025-06-01 12:59:58,322 - __main__ - INFO - Indexing 262 anomalies to security-anomalies
+2025-06-01 12:59:58,348 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 12:59:58,348 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:59:58,349 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 12:59:58,475 - __main__ - INFO - Detected 264 anomalies
+2025-06-01 12:59:58,475 - __main__ - INFO - Indexing 264 anomalies to security-anomalies
+2025-06-01 12:59:58,500 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.008s]
+2025-06-01 12:59:58,501 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 12:59:58,501 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 13:04:58,602 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 13:04:58,603 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 13:04:58,685 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.081s]
+2025-06-01 13:04:59,013 - __main__ - INFO - Loaded 4794 records from Elasticsearch
+2025-06-01 13:04:59,094 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 13:04:59,209 - __main__ - INFO - Detected 238 anomalies
+2025-06-01 13:04:59,221 - __main__ - INFO - Indexing 238 anomalies to security-anomalies
+2025-06-01 13:04:59,252 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-06-01 13:04:59,253 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 13:04:59,254 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 13:04:59,389 - __main__ - INFO - Detected 239 anomalies
+2025-06-01 13:04:59,389 - __main__ - INFO - Indexing 239 anomalies to security-anomalies
+2025-06-01 13:04:59,415 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.007s]
+2025-06-01 13:04:59,416 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 13:04:59,416 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 13:09:59,517 - __main__ - INFO - Starting anomaly detection cycle
+2025-06-01 13:09:59,519 - __main__ - INFO - Loading data from metricbeat-* for the last 1h
+2025-06-01 13:09:59,557 - elastic_transport.transport - INFO - POST http://localhost:9200/metricbeat-*/_search [status:200 duration:0.037s]
+2025-06-01 13:09:59,823 - __main__ - INFO - Loaded 4277 records from Elasticsearch
+2025-06-01 13:09:59,888 - __main__ - INFO - Detecting anomalies using isolation_forest with contamination 0.05
+2025-06-01 13:09:59,980 - __main__ - INFO - Detected 214 anomalies
+2025-06-01 13:09:59,989 - __main__ - INFO - Indexing 214 anomalies to security-anomalies
+2025-06-01 13:10:00,010 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.006s]
+2025-06-01 13:10:00,010 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 13:10:00,011 - __main__ - INFO - Detecting anomalies using local_outlier_factor with contamination 0.05
+2025-06-01 13:10:00,097 - __main__ - INFO - Detected 212 anomalies
+2025-06-01 13:10:00,097 - __main__ - INFO - Indexing 212 anomalies to security-anomalies
+2025-06-01 13:10:00,116 - elastic_transport.transport - INFO - POST http://localhost:9200/_bulk [status:200 duration:0.005s]
+2025-06-01 13:10:00,117 - __main__ - INFO - Successfully indexed all anomalies
+2025-06-01 13:10:00,117 - __main__ - INFO - Anomaly detection cycle completed, sleeping for 5 minutes
+2025-06-01 13:12:45,722 - __main__ - INFO - Anomaly detection service shutting down
